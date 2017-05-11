@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+                html,body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, code,em, img, q, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+                img{border:none;}
+                li{list-style:none;}
+                table{ border-collapse:collapse; width:100%;}
+                body{ font-family: Arial,'宋体'; font-size:14px; color:#000; background-color:#FFF;}
+                a{ text-decoration:none;color:#000;}
+                a:hover{text-decoration:underline;}
+                a:active{color:green;}
+
+                .hide{ display:none;}
+                .gray-bg{ background-color:#EFEDED;}
+                .em{color:#054da1;}
+                .cls:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+                .cls{zoom:1;}
+                /*---all---*/
+                .hd,.bd,.ft{text-align:center;}
+                .hd{border-bottom:2px solid #32AF00;background:url(http://www.hao123.com/redian/images/m-hd-main-bg.png) repeat-x;height:89px;}
+                .hd-inner{width:960px;margin:0 auto;position:relative;}
+                .ft{ text-align:center; color:#999; font-size:12px; margin-top:15px; padding-bottom:15px;}
+
+                .searchfod1 {font-weight: bold; color: #05974c; text-align:center; width:49px; font-size:14px}
+                .searchfod2 {cursor: pointer; text-align:center; width:49px; font-size:14px}
+
+                .logo{position:absolute; top:20px; left:0;}
+                .m-hd-search{position:absolute; top:42px; left:240px;}
+                .m-hd-search_color_gray{ color:#CECECE;}
+                .m-hd-search_d{ display:block; background:url(http://www.hao123.com/redian/images/m-hd-search-decorated-bg.png) no-repeat; height:28px; width:2px;}/*d-> decorated*/
+                .m-hd-search_text{background:url(http://www.hao123.com/redian/images/m-hd-search-text-bg.png) repeat-x; width:342px; outline:none; padding:7px 0px 6px 7px;border:none; height:28px}
+                .m-hd-search_btn{ height:28px; width:95px;background:url(http://www.hao123.com/redian/images/m-hd-search-btn-bg.png) no-repeat; border:none; outline:none; cursor:pointer;}/*btn-button*/
+                .m-hd-search_table{ width:auto;}
+
+                .search-list{position:absolute;left:240px;top:20px;}
+                .search-list li{float:left;}
+
+                .ft .links{height:24px;}
+                .ft .links a{color:#666;}
+                .ft .feedback a{color:#0053a5;}
+                /*---content---*/
+                .main{width:960px;text-align:left;margin:15px auto 0;color:#666;font-size:14px;}
+                .topbar{margin:8px 0;font-size:12px;}
+                .content{width:958px;border:solid 1px #dfdfe0;border-top:none;}
+                .location{float:left;}
+                .tool-box{float:right;}
+                .set-home,.response,.font{display:inline-block;padding:0 5px 0 20px;background:url(http://www.hao123.com/redian/images/icon.png) no-repeat;}
+                .set-home{background-position:0 -40px;}
+                .response{background-position:6px -70px;padding-left:24px;}
+                .font{background-position:8px -101px;}
+
+
+                .title-bar .item-content{padding:0 70px 25px;background-color:#f8fafc;height:65px;}
+                .title-bar .item-title{height:39px;line-height:38px;font-size:14px;font-weight:bold;background:url(http://www.hao123.com/redian/images/bg_sprites.png) repeat-x;}
+                .title-bar .item-inner{padding-top:25px;}
+                .title-bar .item-inner-title{margin-bottom:10px;}
+
+
+                .item{margin-bottom:2px;}
+                .item .item-content .item-inner{padding:0 70px 25px;}
+                .item .item-intro{height:36px;margin:13px;padding-left:40px;line-height:36px;background-color:#f1f1f1;}
+                .item .item-title{display:block;height:42px;line-height:42px;color:#054da1;font-size:14px;}
+
+                .icon-title{display:inline-block;float:left;height:38px;width:45px;background:url(http://www.hao123.com/redian/images/icon.png) no-repeat 13px 8px;}
+                /*展开样式*/
+                .extend{background:url(http://www.hao123.com/redian/images/bg_title.png) repeat-x 0px 0px;}
+                .extend:hover{background-color:#f0f0f0;background-position:0 -72px;}
+                .extend .icon-title{background:url(http://www.hao123.com/redian/images/icon_extend.png) no-repeat 11px 9px;}
+                .extend:hover .icon-title{background-position:11px -76px;}
+                /*收缩样式*/
+                .folder{background:url(http://www.hao123.com/redian/images/bg_title.png) repeat-x 0px -141px;}
+                .folder:hover{background-color:#f0f0f0;background-position:0 -72px;}
+                .folder .icon-title{background:url(http://www.hao123.com/redian/images/icon_extend.png) no-repeat 11px -33px;}
+                .folder:hover .icon-title{background-position:11px -120px;}
+
+                .item .item-inner{position:relative;}
+                .item .item-inner .down-img{position:absolute;top:5px;right:20px;line-height:41px;}
+                .item .item-inner-title{margin-bottom:10px;line-height:34px;}
+
+                a.link-img{display:inline-block;outline:none;text-indent:-999em;height:32px;width:177px;background:url(http://www.hao123.com/redian/images/quick.png) no-repeat 0 7px;}
+                a.link-hao123img{display:inline-block;outline:none;text-indent:-999em;height:32px;width:177px;background:url(http://www.hao123.com/redian/images/hao123browser.png) no-repeat 0 1px;}
+                /*浏览器icon*/
+                .icon-bro{display:inline-block;height:38px;width:27px;float:left;background:url(http://s0.hao123img.com/res/images/icon_browser04.png) no-repeat;}
+                .ico-liebao{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/liebao.JPG) no-repeat 0 10px;}
+        .ico-hao123{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/baidu.png) no-repeat 0 10px;}
+                .ico-ie{background-position:0 10px;}
+                .ico-360{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/360.png) no-repeat 0 10px;}
+                .ico-360js{background-position:0 -70px;}		
+                .ico-aoyou{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/aoyou.png) no-repeat 0 10px;}
+                .ico-sougou{background-position:0 -151px;}
+                .ico-qq{background-position:0 -194px;}
+                .ico-tt{background-position:0 -231px;}
+                .ico-ff{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/huohu2014.png) no-repeat 0 10px;}
+                .ico-chrome{background-position:0 -317px;}
+                .ico-opera{background-position:0 -357px;}
+                .ico-world{background-position:0 -400px;}
+                .ico-safari{background-position:0 -440px;}
+                .ico-green{background-position:0 -480px;}
+                .ico-worldjs{background-position:0 -555px;}
+                .ico-kr{background-position:0 -520px;}
+                .ico-greenjs{background-position:0 -480px;}

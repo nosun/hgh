@@ -1,0 +1,116 @@
+/*banner*/
+.big-banner {
+    margin:0 auto 50px;
+    background:url(../images/bigbanner.jpg)  center 0 no-repeat;
+}
+
+.big-banner div {
+    margin:auto;
+    padding-top:525px;
+    width:1000px;
+}
+
+.big-banner div p {
+    line-height:30px;
+    font-size: 20px;
+    text-indent:2em;
+    padding-bottom: 10px;
+}
+
+/*内容模块m-section*/
+
+.m-section {
+    margin:0 auto 40px;
+    width:1000px;
+    overflow:hidden;
+}
+
+.class-title {
+    width:1000px;
+    height:40px;
+    background:url(../images/img.png) 0 0 no-repeat;
+}
+
+.class-title h2 {
+    float:left;
+    margin-left:53px;
+    font-size:24px;
+    color:#fff;
+    line-height:40px;
+}
+.class-title h2 a {
+    color:#fff;
+}
+
+.class-title a {
+    float:right;
+    font-size:22px;
+    line-height:40px;
+    color:#831618;
+}
+
+.list-content {
+    padding-left:5px;
+}
+
+
+.list-content li {
+    float:left;
+    margin-top:28px;
+    margin-right: 30px;
+    width:310px;
+    color:#a0a0a0;
+}
+
+.list-content .row-last-li{
+    margin-right:0;
+}
+
+.list-content img {
+    width: 310px;
+    height: 233px;
+    margin-bottom:10px;
+}
+
+.list-content h3 {
+    float:left;
+    width: 170px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size:20px;
+    font-weight: normal;
+    color:#a0a0a0;
+}
+
+.list-content span {
+    float:right;
+    line-height:21px;
+}
+
+.list-content .toflower {
+    display: inline-block;
+    width:90px;
+    height:23px;
+    background:url(../images/img.png) 0 -79px no-repeat;
+    float: right;
+}
+
+.list-content li:hover img {
+    box-shadow:0 0 5px 4px #afafaf;
+}
+
+.list-content li:hover h3,
+.list-content li:hover .count {
+    color:#831618;
+}
+
+.list-content li:hover .toflower {
+    background:url(../images/img.png) 0 -52px no-repeat;
+}
+
+
+
+
+
+

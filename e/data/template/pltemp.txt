@@ -1,0 +1,65 @@
+<?php
+if(!defined('InEmpireCMS'))
+{
+	exit();
+}
+?>
+<!--empire.listtemp.top-->
+<?php
+while($r=$empire->fetch($hotsql))
+{
+	$plusername=$r[username];
+	if(empty($r[username]))
+	{
+		$plusername=$fun_r['nomember'];
+	}
+	if($r[userid])
+	{
+            $showpic_r=$empire->fetch1("select userpic from {$dbtbpre}enewsmemberadd where userid=".(int)$r[userid]." limit 1");
+            if(empty($showpic_r[userpic])){
+                $userpic="/e/data/images/nouserpic.jpg";             
+            } else {
+                $userpic=sys_ResizeImg($showpic_r[userpic],64,64,1,'');
+            }
+            $plusername="$r[username]";
+	}
+	$saytime=date('Y-m-d H:i:s',$r['saytime']);
+	//ip
+	$sayip=ToReturnXhIp($r[sayip]);
+	$saytext=RepPltextFace(stripSlashes($r['saytext']));//替换表情
+	$includelink=" onclick=\"javascript:document.saypl.repid.value='".$r[plid]."';document.saypl.saytext.focus();\"";
+?>
+<!--empire.listtemp.hotest-->
+<?
+}
+?>
+<!--empire.listtemp.center-->
+<?php
+while($r=$empire->fetch($sql))
+{
+	$plusername=$r[username];
+	if(empty($r[username]))
+	{
+		$plusername=$fun_r['nomember'];
+	}
+	if($r[userid])
+	{
+            $showpic_r=$empire->fetch1("select userpic from {$dbtbpre}enewsmemberadd where userid=".(int)$r[userid]." limit 1");
+            if(empty($showpic_r[userpic])){
+                $userpic="/e/data/images/nouserpic.jpg";             
+            } else {
+                $userpic=sys_ResizeImg($showpic_r[userpic],64,64,1,'');
+            }
+            $plusername="$r[username]";
+	}
+	$saytime=date('Y-m-d H:i:s',$r['saytime']);
+	//ip
+	$sayip=ToReturnXhIp($r[sayip]);
+	$saytext=RepPltextFace(stripSlashes($r['saytext']));//替换表情
+	$includelink=" onclick=\"javascript:document.saypl.repid.value='".$r[plid]."';document.saypl.saytext.focus();\"";
+?>
+<!--empire.listtemp.latest-->
+<?
+}
+?>
+<!--empire.listtemp.footer-->

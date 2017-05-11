@@ -1,0 +1,147 @@
+<?php
+if(!defined('InEmpireCMS'))
+{
+	exit();
+}
+?>
+<?php
+//children comments 
+function children_comments($children_r,$avatar_r)
+{
+	global $empire,$dbtbpre,$fun_r,$public_r;
+	$count=count($children_r);
+	if($count)
+	{
+		?>
+		<ul class='children'>
+		<?
+		foreach($children_r as $plid=>$r)
+		{
+			$plusername=$r[username];
+			if(empty($r[username]))
+			{
+				$plusername=$fun_r['nomember'];
+			}
+			if($r[userid])
+			{
+				$plusername="<a href='$public_r[newsurl]e/space/?userid=$r[userid]' target='_blank'>$r[username]</a>";
+			}
+			if($r[is_admin])
+			{
+				$plusername=stripSlashes($public_r[add_comments_default_admin_pre]).$r[username];
+				$avatar_r[$r[userid]]=$public_r[newsurl].$public_r[add_comments_default_admin_avatar];
+			}
+			
+			$sayip=ToReturnXhIp($r[sayip]);
+			$fr=$empire->fetch1("select * from {$dbtbpre}enewspl_".$r[restb]." where plid='$r[plid]'");
+                        $classid=$fr[classid];
+                        $id=$fr[id];
+			$saytext=$r[uncontent]?stripSlashes($public_r[add_comments_default_uncontent]):RepPltextFace(stripSlashes($fr['saytext']));//替换表情
+			if($r[replyid])
+			{
+				$r[replyname]=empty($r[replyname])?$fun_r['nomember']:$r[replyname];
+				$saytext='<a href="#comment-'.$r[replyid].'" rel="nofollow">@'.$r[replyname].'</a> '.$saytext;
+			}				
+			$includelink=" onclick=\"javascript:document.saypl.saytext.value+='[quote]".$r[plid]."[/quote]';document.saypl.repid.value='".$r[plid]."';document.saypl.saytext.focus();\"";
+			$depth=1;
+			?>
+			<!--empire.listtemp.children-->
+			<?
+		}
+		?>
+		</ul>
+		<?
+	}
+}
+
+//get parent comment
+function parent_comment($r)
+{
+	global $empire,$dbtbpre,$public_r,$fun_r;
+	$plusername=$r[username];
+        $restb =$r['restb'];
+	if(empty($r[username]))
+	{
+		$plusername=$fun_r['nomember'];
+	}
+	if($r[userid])
+	{
+		$plusername="<a href='$public_r[newsurl]e/space/?userid=$r[userid]' target='_blank'>$r[username]</a>";
+	}
+	
+	if($r[userid]==0)
+	{
+		$avatar_r[$r[userid]]=$public_r[newsurl].$public_r[add_comments_default_avatar];
+	}
+	else
+	{
+		$userpic=$empire->gettotal("select userpic as total from {$dbtbpre}enewsmemberadd where userid='".$r[userid]."' limit 1");
+		$avatar_r[$r[userid]]=empty($userpic)?$avatar_r[$r[userid]]:$userpic;
+	}
+
+	$sayip=ToReturnXhIp($r[sayip]);
+	$fr=$empire->fetch1("select * from {$dbtbpre}enewspl_".$restb." where plid='$r[plid]'");
+	$saytext=RepPltextFace(stripSlashes($fr['saytext']));//替换表情
+	if($r[replyid])
+	{
+		$r[replyname]=empty($r[replyname])?$fun_r['nomember']:$r[replyname];
+		$saytext='<a href="#comment-'.$r[replyid].'" rel="nofollow">@'.$r[replyname].'</a> '.$saytext;
+	}				
+	$includelink=" onclick=\"javascript:document.saypl.saytext.value+='[quote]".$r[plid]."[/quote]';document.saypl.repid.value='".$r[plid]."';document.saypl.saytext.focus();\"";
+	$depth=1;
+        $default_avatar=$public_r[newsurl].$public_r[add_comments_default_avatar];
+        $avatar_r[$r[userid]]=empty($avatar_r[$r[userid]])?$default_avatar:$avatar_r[$r[userid]];
+	ob_start();
+	?>
+	<!--empire.listtemp.center-->
+	<?
+	$code=ob_get_contents();
+	ob_clean();
+	return $code;
+}
+
+//get children comment
+function children_comment($r)
+{
+	global $empire,$dbtbpre,$public_r,$fun_r;
+	$plusername=$r[username];
+	if(empty($r[username]))
+	{
+		$plusername=$fun_r['nomember'];
+	}
+	if($r[userid])
+	{
+		$plusername="<a href='$public_r[newsurl]e/space/?userid=$r[userid]' target='_blank'>$r[username]</a>";
+	}
+	
+	if($r[userid]==0)
+	{
+		$avatar_r[$r[userid]]=$public_r[newsurl].$public_r[add_comments_default_avatar];
+	}
+	else
+	{
+		$userpic=$empire->gettotal("select userpic as total from {$dbtbpre}enewsmemberadd where userid='".$r[userid]."' limit 1");
+		$avatar_r[$r[userid]]=empty($userpic)?$avatar_r[$r[userid]]:$userpic;
+	}
+        $restb =$r['restb'];
+	$sayip=ToReturnXhIp($r[sayip]);
+	$fr=$empire->fetch1("select * from {$dbtbpre}enewspl_".$restb." where plid='$r[plid]'");
+	$saytext=RepPltextFace(stripSlashes($fr['saytext']));//替换表情
+	if($r[replyid])
+	{
+		$r[replyname]=empty($r[replyname])?$fun_r['nomember']:$r[replyname];
+		$saytext='<a href="#comment-'.$r[replyid].'" rel="nofollow">@'.$r[replyname].'</a> '.$saytext;
+	}				
+	$includelink=" onclick=\"javascript:document.saypl.saytext.value+='[quote]".$r[plid]."[/quote]';document.saypl.repid.value='".$r[plid]."';document.saypl.saytext.focus();\"";
+	$depth=1;
+        $default_avatar=$public_r[newsurl].$public_r[add_comments_default_avatar];
+        $avatar_r[$r[userid]]=empty($avatar_r[$r[userid]])?$default_avatar:$avatar_r[$r[userid]];
+	ob_start();
+	?>
+	<!--empire.listtemp.children-->
+	<?
+	$code=ob_get_contents();
+	ob_clean();
+	return $code;
+}
+?>

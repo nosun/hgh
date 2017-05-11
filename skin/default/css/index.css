@@ -1,0 +1,196 @@
+@charset "gbk";
+/* 
+
+for index 
+
+*/
+
+/***** container *****/
+.container {
+    width: 1090px;
+    margin: 10px auto 0;
+}
+
+/**** sidebar ****/
+.index .sidebar {
+    width: 230px;
+    float: left;
+}
+
+/*** section ***/
+.sidebar .section {
+    background-color: #eeeeee;
+    font-size: 12px;    
+}
+
+/** section_header **/
+.sidebar .section_header {
+    height: 28px;
+    line-height: 28px;
+    border-top: 1px solid #003466;
+    border-bottom: 1px solid #003466;
+    padding: 0 10px;
+}
+
+.sidebar strong {
+    font-size: 14px;
+    float: left;
+}
+.sidebar em {
+    font-style: normal;
+    float: right;
+}
+.sidebar .section_header a {
+    color: #CA0002;
+}
+
+/** section_content **/
+.sidebar .section_content {
+    padding: 10px 6px;
+    
+}
+.sidebar .section_content li {
+    line-height: 24px;
+    color: #CA0002;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/**- sina -**/
+.sidebar .sina .section_content {
+    padding: 0;
+}
+
+/**** main ****/
+.main {
+    width: 850px;
+    float: right;
+}
+
+/*** module ***/
+.main .section_header {
+    line-height: 28px;
+    padding: 0 16px;
+    border-bottom: 1px solid #003466;
+    background-color: #FFF;
+}
+
+.main .section_header strong {
+    font-size: 14px;
+    float: left;
+}
+.main .section_header em {
+    font-size: 12px;
+    font-style: normal;
+    float: right;
+}
+.main .section_header a {
+    color: #CA0002;    
+}
+
+.main .section_content {
+    padding: 10px 0;
+    background-color: #FFF;
+}
+.character_module .section li {
+    width: 140px;
+    text-align: center;
+    float: left;
+}
+.character_module .section li img {
+    height: 90px;
+    width: 120px;
+    
+}
+.character_module .section li h4 {
+    height: 36px;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 0 10px;
+}
+/** left_section **/
+.main .left_section {
+    width: 560px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+/** right_section **/
+.main .right_section {
+    width: 280px;
+    float: right;
+    
+}
+
+/*** ad_module ***/
+.ad_module {
+    height: 160px;
+    margin: 0 0 10px;
+}
+.ad_module img {
+    height: 160px;
+    width: 100%;
+}
+
+/*** base_module ***/
+.base_module .section {
+    width: 420px;
+    color: #CA0002;
+}
+.base_module .section_content {
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.base_module h2 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+
+.base_module .left {
+    width: 100px;
+    float: left;
+}
+.base_module .left img {
+    height: 75px;
+    width: 100px;
+}
+.base_module .left h4 {
+    height: 40px;
+    line-height: 20px;  
+    font-size: 12px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    background-color: #EAECE9;
+}
+
+.base_module .right {
+    width: 300px;
+    float: right;
+}
+.base_module .right li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.base_module .bottom {
+    padding: 6px 0;
+}
+.base_module .bottom li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,259 @@
+.pagination {
+            font-size: 80%;
+        }
+        
+.pagination a {
+    text-decoration: none;
+	border: solid 1px #AAE;
+	color: #15B;
+}
+
+.pagination a, .pagination span {
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+	min-width:1em;
+	text-align:center;
+}
+
+.pagination .current {
+    background: #26B;
+    color: #fff;
+	border: solid 1px #AAE;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
+/**/
+
+.commentlist {
+	margin-bottom:5px;
+}
+.commentlist li {
+	font-size:14px;
+*zoom:1;
+}
+.commentlist .alt {
+}
+.commentlist .bypostauthor {
+}
+.commentlist .byuser {
+}
+.commentlist .comment-author-admin {
+}
+.commentlist .comment {
+	padding:10px 0px 3px 75px;
+}
+.comment #respond {
+	border-top:1px dashed #DBE5F1;
+	padding-top:5px;
+}
+.commentlist .comment-author {
+	text-align:right;
+	height:17px;
+	line-height:17px;
+}
+.commentlist .vcard {
+	float:left
+}
+.commentlist .vcard .fn {
+	color:#3C78A7;
+	font-style:normal
+}
+.commentlist .vcard .fn a {
+	color:#3C78A7;
+}
+
+.commentlist .vcard .url {
+	color:#3C78A7;
+}
+.commentlist .reply {
+	font-size:12px;
+	/*display:none*/
+}
+.commentlist .reply a {
+}
+.comment-author-avatar {
+	float:left;
+	margin:0 20px 10px -75px;
+	border:1px solid #ccc;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:2px 2px 4px #ccc;
+	-webkit-box-shadow:2px 2px 4px #ccc;
+	box-shadow:2px 2px 4px #ccc;
+	padding:2px;
+	width:50px;
+	height:50px;
+	_display:inline;
+}
+.commentlist .vcard .says {
+}
+.comment-content {
+	margin-top:7px
+}
+.commentlist .commentmetadata {
+}
+.commentlist .comment-meta {
+	margin-top:10px;
+	color:#666;
+	font-size:12px;
+	height:15px;
+	line-height:15px;
+}
+.comment-meta-l {
+	float:left;
+}
+.comment-meta-r {
+	float:right;
+	display:none;
+}
+.comment-meta cite {
+	color:#888;
+	font-style:normal
+}
+.commentlist .comment-meta a {
+}
+.commentlist a {
+}
+.commentlist a:hover {
+}
+.commentlist p {
+	line-height:1.5
+}
+.commentlist ul {
+}
+.commentlist ul.children {
+	margin:5px 10px;
+	background:#eaeaef;
+	border-radius: 5px;
+}
+
+
+ol#thecomments li ul.children li {
+	border-bottom:none;
+}
+.commentlist .children li.alt {
+}
+.commentlist .children li.bypostauthor {
+}
+.commentlist .children li.byuser {
+}
+.commentlist .children li.comment {
+}
+.commentlist .children li.comment-author-admin {
+}
+.commentlist .depth-1 {
+	border-bottom:1px dashed #DBE5F1;
+}
+.commentlist .children li.depth-2 {
+}
+.commentlist .children li.depth-3 {
+}
+.commentlist .children li.depth-4 {
+}
+.commentlist .children li.depth-5 {
+}
+.commentlist .children li.odd {
+}
+.commentlist .even {
+}
+.commentlist .odd {
+}
+.commentlist .parent {
+}
+.commentlist .pingback {
+	border-bottom:1px dashed #DBE5F1;
+}
+.commentlist .thread-alt {
+}
+.commentlist .thread-even {
+}
+.commentlist .thread-odd {
+}
+.navigation {
+	margin-bottom:5px;
+	text-align:center;
+	height:25px;
+	line-height:25px;
+}
+.page-numbers {
+	padding:0 5px;
+}
+.current {
+	background-color:#45B9F6;
+	color:#fff;
+}
+.comments_h3 {
+	font-weight:700;
+	font-size:14px;
+	border-bottom:1px dashed #DBE5F1;
+	padding-bottom:5px;
+}
+.comments_input, #saytext, #comments_submit {
+	border:2px solid #ECECEC;
+	background-color:#f2f2f2;
+	color:#777;
+	margin-bottom:5px;
+}
+.comments_input {
+	height:19px;
+	line-height:19px;
+	width:140px;
+	padding:2px 0 0 5px;
+}
+#saytext {
+	padding:2px 0 0 5px;
+	;
+	width:95%;
+	height:168px;
+	overflow:auto;
+	font-size:14px;
+}
+#comments_submit {
+	background-color:#005B88;
+	border:none;
+	color:white;
+	height:22px;
+	line-height:22px;
+	width:130px;
+}
+.comments_input, #saytext, #comments_submit {
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+#comments_face {
+	/*display:none;*/
+	margin-bottom:5px;
+}
+#comments_author {
+	margin-bottom:3px;
+}
+#comments_author p {
+	height:30px;
+	line-height:30px;
+}
+#show_author_info, #addimg {
+	cursor:pointer;
+	color:#2970A6;
+}
+#comments_face img {
+	cursor:pointer;
+	margin-right:5px;
+}
+#comment_num{float:right;font-size:35px;color:#CCC;margin:-50px 15px 0 0;padding-right:10px;}
+#respond{clear:both; background:#ccc; padding:8px;}
+
+
+#comment-login-form {padding:10px;}
+
+ol#thecomments li {border-bottom: 1px dotted #222;}
+
+.commentlist ul.children li {font-size:12px;}

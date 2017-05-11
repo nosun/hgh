@@ -1,0 +1,1294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wb="http://open.weibo.com/wb" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>红歌会网 - 唱响红歌，弘扬正气！</title>
+        <meta name="keywords" content="红歌会,红歌会网,红色文化,社会主义,毛泽东" />
+        <meta name="description" content="红歌会网基于一贯的人民立场，高举爱国主义旗帜，唱响红歌，弘扬正气，宣传毛泽东思想和红色文化，反映老百姓的呼声，推动社会公平正义，维护国家和民族根本利益。" />
+        <link rel="shortcut icon" href="http://www.szhgh.com/skin/default/images/favicon.ico" /> 
+        <link href="http://www.szhgh.com/skin/default/css/base.css" rel="stylesheet" type="text/css" />
+        <link type="text/css" href="http://www.szhgh.com/skin/default/css/skitter.styles.css" media="all" rel="stylesheet" />
+        <script type="text/javascript" src="http://www.szhgh.com/skin/default/js/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="http://www.szhgh.com/skin/default/js/myfocus-2.0.4.min.js"></script>
+        <script type="text/javascript" src="http://www.szhgh.com/skin/default/js/mF_tbhuabao_forindex.js"></script>
+        <script type="text/javascript" src="http://www.szhgh.com/skin/default/js/custom.js"></script>
+        <script type="text/javascript" src="http://www.szhgh.com/skin/default/js/jquery.skitter.min.js"></script>
+        <script src="http://www.szhgh.com/skin/default/js/jquery.cookie.js" type="text/javascript"></script>
+        
+        <!-- wap uaredirect -->
+        <script src="http://img.wyzxwk.com/skin/wywk/js/uaredirect.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function($){
+                var $opencookie='',
+                    $app2pc='';
+                $.cookie('RSTestCookie', 1, { expires: 1,path: '/' });
+                $opencookie = $.cookie('RSTestCookie');
+                $app2pc = $.cookie('RSapp2pc');
+                if($opencookie){
+                    if($app2pc!=1){
+                        uaredirect("http://www.szhgh.com/m/");
+                    }
+                }
+            });
+        </script>
+
+        <meta name="baidu-site-verification" content="MmCIh7zIOS" />
+        <meta name="keywords" content="keyword1,keyword2, _rVBxWaZ6RxiAd8o7-UR2M_eqhk" />
+        <meta property="qc:admins" content="13773660666320706375" />
+        <meta property="wb:webmaster" content="585a282dc9c3f9b7" />
+    </head>
+    <body class="index">
+
+        <!-- header -->
+        <div class="header">
+    <div class="toolbar clearfix">
+        <div class="top_menu left"><a id="j-2app" class='first' href="http://m.szhgh.com/" title="点此进入红歌会手机版">手机版</a><a class='first' href="http://hao.szhgh.com/" title="点此进入红歌会网址导航" target="_blank">网址导航</a><a class='first' href="http://www.szhgh.com/html/rank.html" title="点此进入排行榜" target="_blank">排行榜</a><a href="http://www.szhgh.com/special" title="点此进入专题中心" target="_blank">专题中心</a><a href="http://www.szhgh.com/xuezhe/" title="点此进入学者专栏" target="_blank">学者专栏</a><a href="http://www.szhgh.com/e/member/cp/">会员中心</a><a href="http://www.szhgh.com/e/DoInfo/AddInfo.php?mid=10&enews=MAddInfo&classid=29">我要投稿</a></div>  
+        <div class="right">
+            <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=6166758973591541142' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+            <div class="account right">
+                <script>
+                    document.write('<script src="http://www.szhgh.com/e/member/login/loginjs.php?t=' + Math.random() + '"><' + '/script>');
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="redlogo">
+        <div class="logo"><a href="http://www.szhgh.com/" title="红歌会网首页"><img src="http://www.szhgh.com/skin/default/images/logo.png" /></a></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function ($) {
+        $.cookie('RSTestCookie', 1, {expires: 1, path: '/'});
+        $opencookie = $.cookie('RSTestCookie');
+        if ($opencookie) {
+            $("#j-2app").on("click", function () {
+                $.cookie('RSapp2pc', 0, {expires: 30, path: '/'});
+                location.href = "http://www.szhgh.com/m";
+            });
+        } else {
+            location.href = "http://www.szhgh.com/m";
+        }
+    });
+</script>
+
+
+        <!-- header end -->
+        
+        <!-- navigation -->
+        <div class="menu">
+            <ul class="menuul">
+                <li class="menuli">
+                    <strong><a href="http://www.szhgh.com/Article/red-china/" title="红色中国" target="_blank">红色中国</a></strong>
+                    <ul>
+                        <li><a href="http://mzd.szhgh.com" title=" 毛泽东" target="_blank"> 毛泽东</a></li>
+                        <li><a href="http://www.szhgh.com/Article/red-china/ideal/" title=" 理想园地" target="_blank"> 理想园地</a></li>
+                        <li><a href="http://www.szhgh.com/Article/red-china/redman/" title="红色人物" target="_blank">红色人物</a></li>
+                        <li><a href="http://www.szhgh.com/Article/red-china/tour/" title="红色旅游" target="_blank">红色旅游</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </li>
+                 <li class="menuli">
+                    <strong><a href="http://www.szhgh.com/Article/opinion/" title="纵论天下" target="_blank">纵论天下</a></strong>
+                    <ul>
+                        <li><a href="http://www.szhgh.com/Article/opinion/wp/" title="红歌会网评" target="_blank">红歌会网评</a></li>
+                        <li><a href="http://www.szhgh.com/Article/opinion/xuezhe/" title="学者观点" target="_blank">学者观点</a></li>
+                        <li><a href="http://www.szhgh.com/Article/opinion/zatan" title=" 网友杂谈" target="_blank"> 网友杂谈</a></li>
+                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/" title="微博天下" target="_blank">微博天下</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </li>
+                <li class="menuli">
+                    <strong><a href="http://www.szhgh.com/Article/news/" title="资讯中心" target="_blank">资讯中心</a></strong>
+                    <ul class="specialstyle clearfix">
+                        <li><a href="http://www.szhgh.com/gundong/" title="滚动" target="_blank">滚动</a></li>
+                        <li><a href="http://www.szhgh.com/Article/news/society/" title="社会" target="_blank">社会</a></li>
+                        <li><a href="http://www.szhgh.com/Article/news/comments/" title="时政" target="_blank">时评</a></li>
+                        <li><a href="http://www.szhgh.com/Article/news/finance/" title="财经" target="_blank">财经</a></li>
+                        <li><a href="http://www.szhgh.com/Article/news/world/" title="国际" target="_blank">国际</a></li>
+                        <li><a href="http://www.szhgh.com/Article/news/fanfu/" title="反腐" target="_blank">反腐</a></li>
+                        <li><a href="http://www.szhgh.com/Article/news/leaders/" title="高层" target="_blank">高层</a></li>
+                        <li><a href="http://www.szhgh.com/Article/news/photo/" title="图说" target="_blank">图说</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </li>
+                <li class="menuli">
+                    <strong><a href="http://www.szhgh.com/Article/cdjc/" title="唱读讲传" target="_blank">唱读讲传</a></strong>
+                    <ul>
+                        <li><a href="http://www.szhgh.com/Article/cdjc/hongge/" title="唱红歌" target="_blank">唱红歌</a></li>
+                        <li><a href="http://www.szhgh.com/Article/cdjc/jingdian/" title="读经典" target="_blank">读经典</a></li>
+                        <li><a href="http://www.szhgh.com/Article/cdjc/gushi/" title="讲故事" target="_blank">讲故事</a></li>
+                        <li><a href="http://www.szhgh.com/Article/cdjc/zhengqi/" title="传正气" target="_blank">传正气</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </li>                 
+                <li class="menuli">
+                    <strong><a href="http://www.szhgh.com/Article/health/" title="人民健康" target="_blank">人民健康</a></strong>
+                    <ul>
+                        <li><a href="http://www.szhgh.com/Article/health/zjy/" title="转基因" target="_blank">转基因</a></li>
+                        <li><a href="http://www.szhgh.com/Article/health/zhongyi/" title="中医" target="_blank">中医</a></li>
+                        <li><a href="http://www.szhgh.com/Article/health/baojian/" title="保健" target="_blank">保健</a></li>
+                        <li><a href="http://www.szhgh.com/Article/health/food/" title="食品安全" target="_blank">食品安全</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </li>
+                 <li class="menuli">
+                    <strong><a href="http://www.szhgh.com/Article/gnzs/" title="工农家园" target="_blank">工农家园</a></strong>
+                    <ul>
+                        <li><a href="http://www.szhgh.com/Article/gnzs/farmer/" title="农民关注" target="_blank">农民关注</a></li>
+                        <li class="center"><a href="http://www.szhgh.com/Article/gnzs/worker/" title="工友之家" target="_blank">工友之家</a></li>
+                        <li><a href="http://www.szhgh.com/Article/gnzs/gongyi/" title="公益慈善" target="_blank">公益慈善</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </li>               
+                <li class="menuli">
+                    <strong><a href="http://www.szhgh.com/Article/wsds/" title="文史·读书" target="_blank">文史读书</a></strong>
+                    <ul>
+                        <li><a href="http://www.szhgh.com/Article/wsds/wenyi/" title="文艺" target="_blank">文艺</a></li>
+                        <li><a href="http://www.szhgh.com/Article/wsds/culture/" title="文化" target="_blank">文化</a></li>
+                        <li><a href="http://www.szhgh.com/Article/wsds/history/" title="历史" target="_blank">历史</a></li>
+                        <li><a href="http://www.szhgh.com/Article/wsds/read/" title=" 读书" target="_blank"> 读书</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </li>
+                 <li class="menuli last">
+                    <strong><a href="http://www.szhgh.com/Article/thirdworld/" title="第三世界" target="_blank">第三世界</a></strong>
+                    <ul>
+                        <li><a href="http://www.szhgh.com/Article/thirdworld/korea/" title="朝鲜" target="_blank">朝鲜</a></li>
+                        <li><a href="http://www.szhgh.com/Article/thirdworld/cuba/" title="古巴" target="_blank">古巴</a></li>
+                        <li><a href="http://www.szhgh.com/Article/thirdworld/latin-america/" title="拉美" target="_blank">拉美</a></li>
+                        <li><a href="http://www.szhgh.com/Article/thirdworld/africa/" title="非洲" target="_blank">非洲</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </li>                
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <!-- navigation end -->
+        
+        <!-- recommends -->
+        <div class="recommends">
+            <ul>
+                <li class="pleft left">
+
+                    <a class="left" href="http://mzd.szhgh.com/pingshu/201610/122393.html" title="国庆节为什么不提毛泽东？"" target="_blank"><img src="http://ww1.sinaimg.cn/mw690/98fe75a2jw1f8plzxwtd3j20fe08pgm3.jpg" /></a>
+                    <div class="right">
+                        <h2><a href="http://mzd.szhgh.com/pingshu/201610/122393.html" title="国庆节为什么不提毛泽东？””" target="_blank">国庆节为什么不提毛泽东？</a></h2>
+                        <p><a href="http://mzd.szhgh.com/pingshu/201610/122393.html" title="点击阅读全文" target="_blank">吃水不忘挖井人，翻身不忘毛主席!国庆不提毛泽东，国之何立?</a></p>
+    
+
+                    </div>
+                    <div class="clear"></div>
+                </li> 
+                
+                <li class="pcenter left">
+
+                    <a class="left" href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-05/122295.html" title="决不能让烈士的鲜血白流"" target="_blank"><img src="http://ww4.sinaimg.cn/mw690/98fe75a2jw1f8hd80oav8j213h0qo43f.jpg" /></a>
+                    <div class="right">
+                        <h2><a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-05/122295.html" title="决不能让烈士的鲜血白流" target="_blank">决不能让烈士的鲜血白流</a></h2>
+                        <p><a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-05/122295.html" title="点击阅读全文" target="_blank">用法律来护卫英雄是不够的，还必须把革命的初心转化为实际行动。</a></p>
+
+
+                    </div>
+                    <div class="clear"></div>
+                </li>  
+                
+                    <li class="pright right">
+
+                <a class="left" href="http://www.szhgh.com/Article/opinion/zatan/201610/122616.html" title="是谁忘记了共产党的初心？" target="_blank"><img src="http://ww1.sinaimg.cn/mw690/98fe75a2jw1f8oe2rkvryj209606hq30.jpg" /></a>
+                    <div class="right">
+                        <h2><a href="http://www.szhgh.com/Article/opinion/zatan/201610/122616.html" title="是谁忘记了共产党的初心？" target="_blank">是谁忘记了共产党的初心？</a></h2>
+                        <p><a href="http://www.szhgh.com/Article/opinion/zatan/201610/122616.html" title="点击阅读全文" target="_blank">所有为少数人的利益服务而搞私有化的人都背叛了共产党的“初心”。</a></p>
+
+                    </div>
+                    <div class="clear"></div>
+                    </li>
+
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <!-- recommends end -->
+        
+        <!-- main -->
+        <div class="container">
+            <div class="sidebar">
+
+                <!-- 侧边广告4 -->
+                <div class="section" style="margin-bottom:10px">
+                    <script src="http://www.szhgh.com/d/js/acmsd/thea10.js"></script>
+                </div>
+                
+                <!-- 视频 -->
+                <div class="section">
+                    <div class="section_header">
+                        <strong><a title="视频文章" href="http://www.szhgh.com/html/video" target="_blank">视频</a></strong>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="section_content">
+                                                    <h3><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-18/123027.html" title="中纪委纪录片：郭伯雄徐才厚落马后画面曝光(组图)" target="_blank">中纪委纪录片：郭伯雄徐才厚落马后画面曝光(组图)</a></h3>
+                            <div class='summary'>
+                                <a class="left" href="http://www.szhgh.com/Article/news/fanfu/2016-10-18/123027.html" title="中纪委纪录片：郭伯雄徐才厚落马后画面曝光(组图)" target="_blank"><img src="http://d.ifengimg.com/w600_h380/p2.ifengimg.com/a/2016_43/96b336570d8cf3a_size24_w730_h408.jpg" /></a>
+                                <div class="right">
+                                    <p><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-18/123027.html" title="点击阅读全文" target="_blank">　　由中央纪委宣传部、中央电视台联合制作的大型电视专题</a></p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>                        
+                                                <ul>
+                                                        <li><a href="http://www.szhgh.com/Article/cdjc/hongge/201610/123242.html" title="网友原创《红歌唱响长征精神》专题音乐节目" target="_blank">网友原创《红歌唱响长征精神》专题音</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/leaders/2016-10-22/123271.html" title="习近平红军长征胜利80周年纪念大会讲话全文(现场实况)" target="_blank">习近平红军长征胜利80周年纪念大会讲</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-21/123225.html" title="《永远在路上》第四集：利剑出鞘" target="_blank">《永远在路上》第四集：利剑出鞘</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-21/123224.html" title="《永远在路上》 第三集 踏石留印" target="_blank">《永远在路上》 第三集 踏石留印</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/world/2016-10-20/123150.html" title="澳洲野狗肆虐危及人畜 专家建议制成狗肉罐头销往中国" target="_blank">澳洲野狗肆虐危及人畜 专家建议制成</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-20/123149.html" title="山西交警队长强奸女协警被刑拘 指挥中心内暴力作案" target="_blank">山西交警队长强奸女协警被刑拘 指挥</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/finance/2016-10-19/123116.html" title="央视曝光开发商炮制楼盘火爆假象 原来我们都被骗了" target="_blank">央视曝光开发商炮制楼盘火爆假象 原</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-19/123095.html" title="中纪委纪录片第二集：“老虎”万庆良谷春立出镜(图)" target="_blank">中纪委纪录片第二集：“老虎”万庆良谷</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+
+                <!-- 侧边广告1 -->
+                <div class="section" style="margin-bottom:10px">
+                    <script src="http://www.szhgh.com/d/js/acmsd/thea3.js"></script>
+                </div>
+                
+                <!-- 周刊 -->
+                <div class="section">
+                    <div class="section_header">
+                        <strong><a title="红歌会网周刊" href="http://www.szhgh.com//weekly" target="_blank">周刊</a></strong>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="section_content">
+                                                                            						
+													
+                            <h3><a href="http://www.szhgh.com/weekly/20161002" title="《红歌会周刊》2016年10月第2期" target="_blank">《红歌会周刊》2016年10月第2期</a></h3>
+                            <div class='summary'>
+                                <a class="left" href="http://www.szhgh.com/Article/opinion/zatan/2016-10-10/122558.html" title="亲历美国次贷危机，透视中国楼市泡沫" target="_blank"><img class="weekly_pic" src="http://ww2.sinaimg.cn/mw690/98fe75a2jw1f8n15o5onvj20dq08ct96.jpg" /></a>
+                                <div class="right">
+                                    <p><a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-10/122558.html" title="点击阅读全文" target="_blank">　　眼下中国疯狂的房地产泡沫使人不由得联系到2008年</a></p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>			
+												
+                        <ul>
+                                                        <li><a href="http://www.szhgh.com/weekly/20161001" title="《红歌会周刊》2016年10月第1期" target="_blank">《红歌会周刊》2016年10月第1期</a></li>
+                                                        <li><a href="http://www.szhgh.com/weekly/20160904" title="《红歌会周刊》2016年9月第4期" target="_blank">《红歌会周刊》2016年9月第4期</a></li>
+                                                        <li><a href="http://www.szhgh.com/weekly/20160903" title="《红歌会周刊》2016年9月第3期" target="_blank">《红歌会周刊》2016年9月第3期</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+
+                <!-- 微博天下 -->
+                <div class="section">
+                    <div class="section_header">
+                        <strong><a href="http://www.szhgh.com/Article/opinion/weibo/" title="微博看天下" target="_blank">微博天下</a></strong>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="section_content">
+                                                    <h3><a href="http://www.szhgh.com/Article/opinion/weibo/2016-09-23/121629.html" title="微博大V@作业本被销号：890万粉丝“消失”" target="_blank">微博大V@作业本被销号：890万粉丝“消失”</a></h3>
+                            <div class='summary'>
+                                <a class="left" href="http://www.szhgh.com/Article/opinion/weibo/2016-09-23/121629.html" title="微博大V@作业本被销号：890万粉丝“消失”" target="_blank"><img src="http://i.guancha.cn/news/2016/09/22/20160922215006620.jpg" /></a>
+                                <div class="right">
+                                    <p><a href="http://www.szhgh.com/Article/opinion/weibo/2016-09-23/121629.html" title="点击阅读全文" target="_blank">9月22日下午消息，@作业本 被销号，具体原因还不清楚，但网友们</a></p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>                        
+                                                <ul>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/201610/122574.html" title="阿里巴巴式的网购业带给中国什么" target="_blank">阿里巴巴式的网购业带给中国什么</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/201609/121299.html" title="北部湾的风：“章851”居然好意思谈“底线”！？" target="_blank">北部湾的风：“章851”居然好意思谈“</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/2016-09-23/121629.html" title="微博大V@作业本被销号：890万粉丝“消失”" target="_blank">微博大V@作业本被销号：890万粉丝“消</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/2016-08-27/120074.html" title="凭啥删南海“九段线”？中科院研究员向西方期刊“宣战”！" target="_blank">凭啥删南海“九段线”？中科院研究员向</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/2016-08-27/120071.html" title="傅园慧遭水军谩骂 王芳力挺:别怕,就像我在春晚唱红歌一样" target="_blank">傅园慧遭水军谩骂 王芳力挺:别怕,就</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/201607/117754.html" title="致赵薇及其他文艺明星们的一封公开信" target="_blank">致赵薇及其他文艺明星们的一封公开信</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/2016-07-19/117793.html" title="究竟是谁在帮赵薇删帖?" target="_blank">究竟是谁在帮赵薇删帖?</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/2016-07-19/117766.html" title="江苏赣榆警方：少数网民在朋友圈频繁煽动群众游行" target="_blank">江苏赣榆警方：少数网民在朋友圈频繁煽</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/2016-07-14/117477.html" title="@共青团中央 反击台独：戴立忍、赵薇及其新片遭网友普遍谴责抵制" target="_blank">@共青团中央 反击台独：戴立忍、赵薇及</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/opinion/weibo/2016-07-01/116498.html" title="这件事，逼得韩红宣布退出微博！" target="_blank">这件事，逼得韩红宣布退出微博！</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+                
+
+                <!-- 反腐除奸 -->
+                <div id='chaos' class="section classtab">
+                    <div class="section_header">
+                        <strong id="side_tab_button">
+                            <a class="onhover" href="http://www.szhgh.com/Article/news/fanfu/" title="反腐" target="_blank">反腐</a>
+                            <a href="http://www.szhgh.com/Article/news/chujian/" title="除奸" target="_blank">除奸</a>
+                        </strong>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="side_tab_content" class="section_content">
+                        <ul>
+                                                        <li class="pictext">
+                                <h3><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-18/123027.html" title="中纪委纪录片：郭伯雄徐才厚落马后画面曝光(组图)" target="_blank">中纪委纪录片：郭伯雄徐才厚落马后画面曝光(组图)</a></h3>
+                                <div class='summary'>
+                                    <a class="left" href="http://www.szhgh.com/Article/news/fanfu/2016-10-18/123027.html" title="中纪委纪录片：郭伯雄徐才厚落马后画面曝光(组图)" target="_blank"><img src="http://d.ifengimg.com/w600_h380/p2.ifengimg.com/a/2016_43/96b336570d8cf3a_size24_w730_h408.jpg" /></a>
+                                    <div class="right">
+                                        <p><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-18/123027.html" title="点击阅读全文" target="_blank">　　由中央纪委宣传部、中央电视台联合制作的大型电视专题</a></p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>                                 
+                            </li>
+                                                        
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-22/123278.html" title="中纪委纪录片：“女老虎”吕锡文现身忏悔" target="_blank">中纪委纪录片：“女老虎”吕锡文现身忏</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-23/123316.html" title="甘肃省委统战部原副部长吴继德受审：非法吸储近7千万" target="_blank">甘肃省委统战部原副部长吴继德受审：非</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-23/123315.html" title="受贿超3亿创“纪录”，龙煤集团分公司副总被判死缓并终身监禁" target="_blank">受贿超3亿创“纪录”，龙煤集团分公司</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-21/123225.html" title="《永远在路上》第四集：利剑出鞘" target="_blank">《永远在路上》第四集：利剑出鞘</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-21/123224.html" title="《永远在路上》 第三集 踏石留印" target="_blank">《永远在路上》 第三集 踏石留印</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-20/123149.html" title="山西交警队长强奸女协警被刑拘 指挥中心内暴力作案" target="_blank">山西交警队长强奸女协警被刑拘 指挥</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-20/123147.html" title="吃1米长鳄鱼尾、衣柜后藏暗室 这些贪官太奇葩(图)" target="_blank">吃1米长鳄鱼尾、衣柜后藏暗室 这些贪</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-19/123118.html" title="公安部：肃清周永康流毒影响 确保公安队伍绝对忠诚" target="_blank">公安部：肃清周永康流毒影响 确保公安</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-19/123095.html" title="中纪委纪录片第二集：“老虎”万庆良谷春立出镜(图)" target="_blank">中纪委纪录片第二集：“老虎”万庆良谷</a></li>
+                                                    </ul>
+                        <ul style='display: none;'>
+                                                        <li class="pictext">
+                                <h3><a href="http://www.szhgh.com/Article/news/chujian/2016-07-10/117160.html" title="大快人心：温立三被从语文教材编委名单中删除" target="_blank">大快人心：温立三被从语文教材编委名单中删除</a></h3>
+                                <div class='summary'>
+                                    <a class="left" href="http://www.szhgh.com/Article/news/chujian/2016-07-10/117160.html" title="大快人心：温立三被从语文教材编委名单中删除" target="_blank"><img src="http://ww2.sinaimg.cn/mw690/98fe75a2jw1f5ov4yfrgej20hs0c5t9l.jpg" /></a>
+                                    <div class="right">
+                                        <p><a href="http://www.szhgh.com/Article/news/chujian/2016-07-10/117160.html" title="点击阅读全文" target="_blank"> 现国家教育部要求将温立三从相关语文教材的编委名单中予</a></p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>                                 
+                            </li>
+                                                        
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/201609/120891.html" title="周小平：外国势力在中国收买人员干黑活的全过程！" target="_blank">周小平：外国势力在中国收买人员干黑活</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/2016-09-05/120576.html" title="以为是爱国贼丢脸到国外，细看却是汉奸在反黑中国" target="_blank">以为是爱国贼丢脸到国外，细看却是汉奸</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/2016-09-01/120346.html" title="中国以间谍罪起诉美籍华裔女商人潘婉芬 她还在中国招募间谍" target="_blank">中国以间谍罪起诉美籍华裔女商人潘婉</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/201608/118941.html" title="官媒评4起颠覆国家政权案：“推墙”推倒了自己" target="_blank">官媒评4起颠覆国家政权案：“推墙”推</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/2016-08-08/118902.html" title="胡石根案：不法律师、宗教组织、网络推手已深度勾结" target="_blank">胡石根案：不法律师、宗教组织、网络推</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/2016-08-08/118909.html" title="在华日本间谍隐藏深" target="_blank">在华日本间谍隐藏深</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/2016-08-05/118798.html" title="周世锋颠覆国家政权罪被判7年 新华社：“死磕律师”的黯然结局" target="_blank">周世锋颠覆国家政权罪被判7年 新华社</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/2016-08-05/118795.html" title="勾洪国以颠覆罪被判3缓3 系胡石根"接班人"(庭审记录)" target="_blank">勾洪国以颠覆罪被判3缓3 系胡石根&quot;接</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/2016-08-04/118735.html" title="带路党的悔过：胡石根当庭发表最后陈述(实拍)" target="_blank">带路党的悔过：胡石根当庭发表最后陈述</a></li>
+                                                        <li><a href="http://www.szhgh.com/Article/news/chujian/2016-08-02/118622.html" title="翟岩民犯颠覆国家政权罪 被判3年缓刑4年(实录)" target="_blank">翟岩民犯颠覆国家政权罪 被判3年缓刑</a></li>
+                                                    </ul>                        
+                    </div>
+                </div>
+
+                <!-- 侧边广告2 -->
+                <div class="section" style="margin-bottom:10px">
+                    <script src="http://www.szhgh.com/d/js/acmsd/thea4.js"></script>
+                </div>
+                
+                <!-- 学者观点 -->
+                <div class="section">
+                    <div class="section_header">
+                        <strong><a href="http://www.szhgh.com/Article/opinion/xuezhe/" title="学者观点" target="_blank">学者观点</a></strong>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="author_section_content">
+                        <ul>
+                            
+                            <li>
+                                    <h3><a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-08-05/118804.html" title="张文木：反对西方所谓“普世价值”，走中国自己的路" target="_blank">张文木：反对西方所谓“普世价值”，走中国自己的路</a></h3>
+                                                                            
+                                    <div class='summary'>
+                                        <a class="left" href="http://www.szhgh.com/xuezhe/7.html" title="张文木" target="_blank"><img src="http://www.szhgh.com/images/author/zhangwenmu.jpg" /></a>
+                                        <div class='right'>
+                                            <div class="authorname"><a href="http://www.szhgh.com/xuezhe/7.html" title="" target="_blank">张文木</a></div>
+                                            <div class="smalltext"><p><a href="http://www.szhgh.com/xuezhe/7.html" title="点击查看详细介绍" target="_blank">1957年生陕西，1975年中学毕业后下乡插队锻炼，自1979年起，相继在</a></p></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div> 
+                                                                        <div class='smalltext_summary'>
+                                        <p> 中国共产党就是这样在与&ldquo;普世价值&rdquo;、教条主义的斗争中成长的。党史前半部分多是跟&ldquo;左&rdquo;的&ldquo;普世价值&rdquo;斗争，<a class="readall" href="http://www.szhgh.com/Article/opinion/xuezhe/2016-08-05/118804.html" title="点击阅读全文" target="_blank">[全文]</a></p>
+                                    </div>                                   
+                                </li>
+                            
+                            <li>
+                                    <h3><a href="http://www.szhgh.com/Article/opinion/xuezhe/201607/118316.html" title="张勤德：对“狼牙山五壮士荣誉案” 影响和意义的四点认识" target="_blank">张勤德：对“狼牙山五壮士荣誉案” 影响和意义的四点认识</a></h3>
+                                                                            
+                                    <div class='summary'>
+                                        <a class="left" href="http://www.szhgh.com/xuezhe/201608/71.html" title="张勤德" target="_blank"><img src="http://ww1.sinaimg.cn/mw690/98fe75a2jw1f6puxrqxmhj206z06yt8p.jpg" /></a>
+                                        <div class='right'>
+                                            <div class="authorname"><a href="http://www.szhgh.com/xuezhe/201608/71.html" title="" target="_blank">张勤德</a></div>
+                                            <div class="smalltext"><p><a href="http://www.szhgh.com/xuezhe/201608/71.html" title="点击查看详细介绍" target="_blank">&nbsp;原中共中央政策研究室综合局局长。</a></p></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div> 
+                                                                        <div class='smalltext_summary'>
+                                        <p>&ldquo;狼牙山五壮士荣誉案&rdquo;这个共和国历史上最重大的维护革命民族英雄名誉案，以被告《炎黄春秋》前执行主编洪振快一审败诉而告一段落。它<a class="readall" href="http://www.szhgh.com/Article/opinion/xuezhe/201607/118316.html" title="点击阅读全文" target="_blank">[全文]</a></p>
+                                    </div>                                   
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+
+                <!-- 侧边广告3 -->
+                <div class="section" style="margin-bottom:10px">
+                    <script src="http://www.szhgh.com/d/js/acmsd/thea5.js"></script>
+                </div>
+                
+                <!-- 网友妙论 -->
+                <div class="section">
+                    <div class="section_header">
+                        <strong><a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友妙论" target="_blank">网友妙论</a></strong>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="netizens_section_content">
+                        <ul>
+                                                            <li>
+                                    <h3><a href="http://www.szhgh.com/Article/opinion/zatan/201608/118707.html" title="钱昌明评“党校教授”王长江反党事件：严肃党纪，坚决剔除" target="_blank">钱昌明评“党校教授”王长江反党事件：严肃党纪，坚决剔除</a></h3>
+                                    <div class='summary'>
+                                        <a class="left" href="http://www.szhgh.com/Article/opinion/zatan/201608/118707.html" title="钱昌明评“党校教授”王长江反党事件：严肃党纪，坚决剔除" target="_blank"><img src="http://www.cwzg.cn/uploadfile/2016/0731/20160731103553819.jpg" /></a>
+                                        <div class="netizens_smalltext">
+                                            <p>王长江完全无视《党章》和党规、党纪，也完全无视总书记的告诫，明知故犯。对&ldquo;党员反党&rdquo;现象，究竟应该怎样解决?应该按违反《党章》<a class="readall" href="http://www.szhgh.com/Article/opinion/zatan/201608/118707.html" title="点击阅读全文" target="_blank">[全文]</a></p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>                                  
+                                </li>
+                                                            <li>
+                                    <h3><a href="http://www.szhgh.com/Article/opinion/zatan/201607/118186.html" title="贺济中：从“赵薇事件”看中国官僚买办资本垄断的危机" target="_blank">贺济中：从“赵薇事件”看中国官僚买办资本垄断的危机</a></h3>
+                                    <div class='summary'>
+                                        <a class="left" href="http://www.szhgh.com/Article/opinion/zatan/201607/118186.html" title="贺济中：从“赵薇事件”看中国官僚买办资本垄断的危机" target="_blank"><img src="http://ww1.sinaimg.cn/large/bf78f29bjw1f60rs4yh96j20ds08ajrt.jpg" /></a>
+                                        <div class="netizens_smalltext">
+                                            <p>象赵薇这样没有国格的女人，她为什么敢多次公开触犯中国人民的底线?北大的共产党员贺卫方公开扬言&ldquo;共产党不合法&rdquo;，也没有人敢动他<a class="readall" href="http://www.szhgh.com/Article/opinion/zatan/201607/118186.html" title="点击阅读全文" target="_blank">[全文]</a></p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>                                  
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+                   
+            </div>
+            <div class="main">
+                <div class="top_module module">
+                    <div id="statetab" class="right section tabbox row1">
+                        <ul class="tabbtn">
+                            <li class="current first clearfix">
+                                <span class="left"><a href="http://www.szhgh.com/Article/news/" title="资讯中心" target="_blank">要闻</a>·<a href="http://www.szhgh.com/Article/opinion/" title="纵论天下" target="_blank">观点</a></span>
+                                <span class="customlistnav right">
+                                    <a target="_blank" title="点此查看最新文章" href="http://www.szhgh.com/html/news/">最新</a><a target="_blank" title="点此查看头条文章" href="http://www.szhgh.com/html/firsttitle/">头条</a><a target="_blank" title="点此查看推荐文章" href="http://www.szhgh.com/html/isgood/">推荐</a><a target="_blank" title="点此查看最新评论" href="http://www.szhgh.com/html/newcomment/">评论</a><a target="_blank" title="点此查看视频文章" href="http://www.szhgh.com/html/video/">视频</a>
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="tabcon">
+                            <ul>
+                                <h1 class="firsttitle"><a href="http://www.szhgh.com/Article/news/" title="长征精神，习近平最重视什么？" target="_blank">长征精神，习近平最重视什么？</a></h1>                                <li><a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-23/123326.html" title="李北方：不开玩笑，贪了两亿多的魏鹏远才是忠于人民的好干部" target="_blank">李北方：不开玩笑，贪了两亿多的魏鹏远才是忠于人民的好干部</a></li><li><a href="http://www.szhgh.com/Article/opinion/zatan/201610/123305.html" title="望长城内外：他们为什么抵挡不住诱惑？" target="_blank">望长城内外：他们为什么抵挡不住诱惑？</a></li><li><a href="http://www.szhgh.com/Article/notice/201610/123249.html" title="公告：红歌会网“一键登录”功能已恢复 欢迎使用" target="_blank">公告：红歌会网“一键登录”功能已恢复 欢迎使用</a></li><li><a href="http://www.szhgh.com/Article/wsds/wenyi/2016-10-23/123322.html" title="《中国出了个毛泽东》实景演出600场 全面反映长征精神" target="_blank"><strong>《中国出了个毛泽东》实景演出600场 全面反映长征精神</strong></a></li><li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-22/123278.html" title="中纪委纪录片：“女老虎”吕锡文现身忏悔" target="_blank">中纪委纪录片：“女老虎”吕锡文现身忏悔</a></li><li><a href="http://www.szhgh.com/Article/news/fanfu/2016-10-23/123315.html" title="受贿超3亿创“纪录”，龙煤集团分公司副总被判死缓并终身监禁" target="_blank">受贿超3亿创“纪录”，龙煤集团分公司副总被判死缓并终身监禁</a></li><li><a href="http://www.szhgh.com/Article/news/comments/2016-10-23/123313.html" title="人民日报谈美舰强闯西沙：中国不会任由美国肆意胡来" target="_blank"><strong>人民日报谈美舰强闯西沙：中国不会任由美国肆意胡来</strong></a></li><li><a href="http://www.szhgh.com/Article/news/mil/2016-10-23/123310.html" title="国防部新闻发言人吴谦就美国军舰擅自进入我西沙领海发表谈话" target="_blank">国防部新闻发言人吴谦就美国军舰擅自进入我西沙领海发表谈话</a></li><li><a href="http://www.szhgh.com/Article/news/leaders/2016-10-23/123312.html" title="一图读懂习近平在纪念长征胜利80周年大会上的讲话" target="_blank">一图读懂习近平在纪念长征胜利80周年大会上的讲话</a></li><li><a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-22/123281.html" title="萧武：革命不是请客吃饭，长征不是心灵鸡汤" target="_blank"><strong>萧武：革命不是请客吃饭，长征不是心灵鸡汤</strong></a></li><li><a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-22/123296.html" title="警惕！所谓的国企混改，正悄悄走向一条私有化的不归路" target="_blank">警惕！所谓的国企混改，正悄悄走向一条私有化的不归路</a></li><li><a href="http://www.szhgh.com/Article/opinion/zatan/201610/123279.html" title="点子牛：杜特尔特是第二个阿基诺、或金正恩？" target="_blank">点子牛：杜特尔特是第二个阿基诺、或金正恩？</a></li><li><a href="http://www.szhgh.com/Article/news/politics/2016-10-22/123266.html" title="狼牙山五壮士名誉权案洪振快拒道歉 最高法:已强制执行" target="_blank"><strong>狼牙山五壮士名誉权案洪振快拒道歉 最高法:已强制执行</strong></a></li><li><a href="http://www.szhgh.com/Article/news/finance/2016-10-22/123280.html" title="社科院蓝皮书：去年股市危机中有官员趁机发国难财" target="_blank">社科院蓝皮书：去年股市危机中有官员趁机发国难财</a></li><li><a href="http://www.szhgh.com/Article/news/world/2016-10-20/123179.html" title="俄罗斯，那群仍在奋斗的共产党员" target="_blank">俄罗斯，那群仍在奋斗的共产党员</a></li>                            </ul>
+                        </div> 
+                    </div>
+                    <div class="left section row2">
+                        <script type="text/javascript">
+                            myFocus.set({
+                                id: 'myFocus', //焦点图盒子ID
+                                pattern: 'mF_tbhuabao', //风格应用的名称
+                                time: 3, //切换时间间隔(秒)
+                                trigger: 'click', //触发切换模式:'click'(点击)/'mouseover'(悬停)
+                                width: 320, //设置图片区域宽度(像素)
+                                height: 240, //设置图片区域高度(像素)
+                                txtHeight: 'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+                            });
+                        </script>
+                        <div id="myFocus" class="scroll">
+                            <div class="loading"></div><!--载入画面(可删除)-->
+                            <div class="pic"><!--图片列表-->
+                                <ul class="scroll_list">
+                                                                        <li>
+                                        <a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-21/123241.html" target="_blank"><img src="http://ww4.sinaimg.cn/mw690/98fe75a2jw1f8zxyai36hj20oa0buabo.jpg" alt="张志坤：未到长城亦好汉——以此纪念红军长征胜" /></a>
+                                    </li>
+                                                                        <li>
+                                        <a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-21/123211.html" target="_blank"><img src="http://ww2.sinaimg.cn/mw690/98fe75a2jw1f8znoc6mq3j20fa08waaq.jpg" alt="孙锡良：毛泽东的长征" /></a>
+                                    </li>
+                                                                        <li>
+                                        <a href="http://www.szhgh.com/weekly/20161002/" target="_blank"><img src="http://ww2.sinaimg.cn/mw690/98fe75a2jw1f8n15o5onvj20dq08ct96.jpg" alt="《红歌会周刊》1002期：亲历美国次贷危机，透视中" /></a>
+                                    </li>
+                                                                        <li>
+                                        <a href="http://www.szhgh.com/Article/news/leaders/2016-10-20/123135.html" target="_blank"><img src="http://ww4.sinaimg.cn/mw690/98fe75a2jw1f8yf5pgg40j20e20axq3n.jpg" alt="习近平等观看纪念红军长征胜利80周年文艺晚会" /></a>
+                                    </li>
+                                                                        <li>
+                                        <a href="http://www.szhgh.com/Article/opinion/zatan/201610/123065.html" target="_blank"><img src="http://ww3.sinaimg.cn/mw690/98fe75a2jw1f8xe7zzlgdj20j60buwfk.jpg" alt="望长城内外：不一样的“长征”" /></a>
+                                    </li>
+                                                                        <li>
+                                        <a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-18/123062.html" target="_blank"><img src="http://ww1.sinaimg.cn/mw690/98fe75a2jw1f8whuwi5j5j20go0b4js4.jpg" alt="“高铁之父刘志军”——美日操纵的伪爱国舆论" /></a>
+                                    </li>
+                                                                    </ul>
+                            </div>
+                            <div class="scroll_bg"></div>
+                        </div>
+                        <div class="topic_list">
+                            
+                            <!-- 站务公告 -->
+                            <div class="section_header section_header_base1">
+                                <strong><a href="http://www.szhgh.com/Article/notice/" title="站务公告" target="_blank">站务公告</a></strong>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="section_content">
+                                <ul>
+                                                                        <li><a href="http://www.szhgh.com/Article/notice/201610/123249.html" title="公告：红歌会网“一键登录”功能已恢复 欢迎使用" target="_blank">公告：红歌会网“一键登录”功能已恢复 欢迎使用</a></li>
+                                                                        <li><a href="http://www.szhgh.com/weekly/20161002/" title="《红歌会周刊》1002期：亲历美国次贷危机，透视中国楼市泡沫" target="_blank">《红歌会周刊》1002期：亲历美国次贷危机，透视中国楼市泡沫</a></li>
+                                                                        <li><a href="http://www.szhgh.com/Article/notice/201610/122620.html" title="公告：攻击问题解决，注册功能重新开放(进入注册)" target="_blank">公告：攻击问题解决，注册功能重新开放(进入注册)</a></li>
+                                                                    </ul>
+                            </div>                       
+                            
+                            <!-- 红歌会网评 -->
+                            <div class="section_header section_header_base1">
+                                <strong><a href="http://www.szhgh.com/Article/opinion/wp/" title="红歌会网评" target="_blank">红歌会网评</a></strong>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="section_content">
+                                <ul>
+                                                                        <li><a href="http://www.szhgh.com/Article/opinion/wp/201609/121941.html" title="红歌会网评：伟大的祖国，英雄的人民" target="_blank">红歌会网评：伟大的祖国，英雄的人民</a></li>
+                                                                        <li><a href="http://www.szhgh.com/Article/opinion/wp/2016-09-18/121354.html" title="九一八时评：中日再战，日本会输吗？" target="_blank">九一八时评：中日再战，日本会输吗？</a></li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div> 
+
+                <!-- 广告一区 -->
+                <div class="box_skitter ad_area_1">
+                    <ul>
+			<script src="http://www.szhgh.com/d/js/acmsd/thea6.js"></script>
+                    </ul>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('.ad_area_1').skitter({
+                            theme: 'minimalist',
+                            dots: false,
+                            preview: false,
+                            numbers: false,
+                            navigation: false,
+                            interval: 3000,
+                            with_animations: ['swapBarsBack', 'cubeShow', 'swapBars', 'circlesRotate', 'hideBars', 'circlesInside', 'downBars', 'cut', 'upBars', 'swapBlocks']
+                        });
+                    });
+                </script>
+
+                <div class="base_module module">
+                    <div class="left_section section">
+
+                        <!-- 红色中国 -->
+                                                <div class="section_header">
+                            <strong><a href="http://www.szhgh.com/Article/red-china/" title="红色中国" target="_blank">红色中国</a></strong>
+                            <em>
+                                
+                                                                <span><a href="http://mzd.szhgh.com" title="毛泽东" target="_blank">毛泽东</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/red-china/ideal/" title="理想园地" target="_blank">理想园地</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/red-china/redman/" title="红色人物" target="_blank">红色人物</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/red-china/tour/" title="红色旅游" target="_blank">红色旅游</a></span>
+                                
+                                <a class="morebutton" href="http://www.szhgh.com/Article/red-china/" title="点击查看更多" target="_blank"></a>
+                            </em>
+                            <div class="clear"></div>
+                        </div>                        <div class="section_content">
+
+                                                        <h2><a href="http://www.szhgh.com/Article/red-china/" title="" target="_blank">张文木：看毛泽东如何巨手擘画新中国</a></h2>
+                                                        <div class="middle">
+                                <div class="left">
+                                                                        <a href="http://mzd.szhgh.com/huainian/2016-10-17/122982.html" title="四十年九•九的怀念：湖南人民隆重纪念毛主席实况视频(下集)" target="_blank"><img src="http://ww4.sinaimg.cn/mw690/98fe75a2jw1f8v1kh8wo0j20pq0cm3zs.jpg" /></a>
+                                    <h4><a href="http://mzd.szhgh.com/huainian/2016-10-17/122982.html" title="四十年九•九的怀念：湖南人民隆重纪念毛主席实况视频(下集)" target="_blank">四十年九•九的怀念：湖南人民隆重纪念毛主席实况视频(下集)</a></h4><div class="transparent_bg"></div>
+                                                                    </div>
+                                <div class="right">
+                                    <ul>
+                                                                                <li><a href="http://mzd.szhgh.com/huainian/2016-10-17/122982.html" title="" target="_blank">四十年九•九的怀念：湖南人民隆重纪念毛主席实况视频(下集)</a></li>
+                                                                                <li><a href="http://mzd.szhgh.com/pingshu/2016-10-12/122683.html" title="" target="_blank">张国祚：论毛泽东的文化软实力</a></li>
+                                                                                <li><a href="http://mzd.szhgh.com/pingshu/2016-10-11/122638.html" title="" target="_blank">张文木：看毛泽东如何巨手擘画新中国</a></li>
+                                                                                <li><a href="http://mzd.szhgh.com/jinian/2016-10-08/122490.html" title="" target="_blank">河北千余人举行毛主席逝世40周年纪念活动及座谈会(组图)</a></li>
+                                                                            </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/red-china/redman/" title="红色人物" target="_blank">红色人物</a>]</span> <a href="http://www.szhgh.com/Article/red-china/redman/201610/122717.html" title="" target="_blank">自闭桃源称太古，欲栽大木柱长天!——毛泽东和杨昌济</a></li>
+                                                                        <li><span>[<a href="http://mzd.szhgh.com/pingshu" title="评述毛泽东" target="_blank">评述毛泽东</a>]</span> <a href="http://mzd.szhgh.com/pingshu/201610/122786.html" title="" target="_blank">《毛泽东大传》第九卷  风雷磅礴  第337章(下)</a></li>
+                                                                        <li><span>[<a href="http://mzd.szhgh.com/pingshu" title="评述毛泽东" target="_blank">评述毛泽东</a>]</span> <a href="http://mzd.szhgh.com/pingshu/201610/122718.html" title="" target="_blank">《毛泽东大传》第九卷  风雷磅礴  第336章（下）</a></li>
+                                                                        <li><span>[<a href="http://mzd.szhgh.com/pingshu" title="评述毛泽东" target="_blank">评述毛泽东</a>]</span> <a href="http://mzd.szhgh.com/pingshu/2016-10-21/123254.html" title="" target="_blank">袁庾华：毛泽东与中国文化传统</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/red-china/redman/" title="红色人物" target="_blank">红色人物</a>]</span> <a href="http://www.szhgh.com/Article/red-china/redman/2016-10-21/123255.html" title="" target="_blank">邓力群长沙兑泽中学的求学生活</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/red-china/redman/" title="红色人物" target="_blank">红色人物</a>]</span> <a href="http://www.szhgh.com/Article/red-china/redman/2016-10-21/123206.html" title="" target="_blank">毛泽东为何专门赋诗赞彭德怀</a></li>
+                                                                        <li><span>[<a href="http://mzd.szhgh.com/pingshu" title="评述毛泽东" target="_blank">评述毛泽东</a>]</span> <a href="http://mzd.szhgh.com/pingshu/2016-10-21/123204.html" title="" target="_blank">毛泽东的哪首名诗是被人从废纸篓中捡回来的？</a></li>
+                                                                        <li><span>[<a href="http://mzd.szhgh.com/pingshu" title="评述毛泽东" target="_blank">评述毛泽东</a>]</span> <a href="http://mzd.szhgh.com/pingshu/2016-10-20/123159.html" title="" target="_blank">秀才与兵：陈独秀和毛泽东迥异的革命人生</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/red-china/redman/" title="红色人物" target="_blank">红色人物</a>]</span> <a href="http://www.szhgh.com/Article/red-china/redman/2016-10-20/123154.html" title="" target="_blank">纪念鲁迅|铁屋子里的呐喊</a></li>
+                                                                        <li><span>[<a href="http://mzd.szhgh.com/pingshu" title="评述毛泽东" target="_blank">评述毛泽东</a>]</span> <a href="http://mzd.szhgh.com/pingshu/2016-10-18/123039.html" title="" target="_blank">毛泽东《论持久战》的传播与影响</a></li>
+                                                                    </ul>                                    
+                            </div>
+                        </div>
+                        
+                        <!-- 资讯中心 -->
+                                                <div class="section_header">
+                            <strong><a href="http://www.szhgh.com/Article/news/" title="资讯中心" target="_blank">资讯中心</a></strong>
+                            <em>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/news/leaders/" title="高层" target="_blank">高层</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/news/politics/" title="时政" target="_blank">时政</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/news/world/" title="国际" target="_blank">国际</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/news/society/" title="社会" target="_blank">社会</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/news/mil/" title="军事" target="_blank">军事</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/news/finance/" title="财经" target="_blank">财经</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/news/gangaotai/" title="港澳台" target="_blank">港澳台</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/news/fanfu/" title="反腐" target="_blank">反腐</a></span>
+                                
+                                <a class="morebutton" href="http://www.szhgh.com/Article/news/" title="点击查看更多" target="_blank"></a>
+                            </em>
+                            <div class="clear"></div>
+                        </div>                        <div class="section_content">
+
+                                                        <h2><a href="http://www.szhgh.com/Article/news/" title="" target="_blank">习近平红军长征胜利80周年纪念大会讲话全文</a></h2>
+                                                        <div class="middle">
+                                <div class="left">
+                                                                        <a href="http://www.szhgh.com/Article/news/leaders/2016-10-21/123253.html" title="红军长征胜利80周年纪念大会举行 习近平发表重要讲话(实录)" target="_blank"><img src="http://ww3.sinaimg.cn/mw690/98fe75a2jw1f907ts0uaij20ak06qjs0.jpg" /></a>
+                                    <h4><a href="http://www.szhgh.com/Article/news/leaders/2016-10-21/123253.html" title="红军长征胜利80周年纪念大会举行 习近平发表重要讲话(实录)" target="_blank">红军长征胜利80周年纪念大会举行 习近平发表重要讲话(实录)</a></h4><div class="transparent_bg"></div>
+                                                                    </div>
+                                <div class="right">
+                                    <ul>
+                                                                                <li><a href="http://www.szhgh.com/Article/news/leaders/2016-10-23/123307.html" title="" target="_blank">长征精神，习近平最重视什么？</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/news/leaders/2016-10-22/123271.html" title="" target="_blank">习近平红军长征胜利80周年纪念大会讲话全文(现场实况)</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/news/leaders/2016-10-21/123253.html" title="" target="_blank">红军长征胜利80周年纪念大会举行 习近平发表重要讲话(实录)</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/news/leaders/2016-10-21/123194.html" title="" target="_blank">习近平同菲律宾总统杜特尔特举行会谈</a></li>
+                                                                            </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/world/" title="国际" target="_blank">国际</a>]</span> <a href="http://www.szhgh.com/Article/news/world/2016-10-23/123318.html" title="" target="_blank">杜特尔特20日下午人民大会堂演讲全文</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/fanfu/" title="反腐" target="_blank">反腐</a>]</span> <a href="http://www.szhgh.com/Article/news/fanfu/2016-10-23/123316.html" title="" target="_blank">甘肃省委统战部原副部长吴继德受审：非法吸储近7千万</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/gangaotai/" title="港澳台" target="_blank">港澳台</a>]</span> <a href="http://www.szhgh.com/Article/news/gangaotai/201610/122719.html" title="" target="_blank">台名嘴嘲笑解放军：没有渡海能力 武统不了台湾</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/finance/" title="财经" target="_blank">财经</a>]</span> <a href="http://www.szhgh.com/Article/news/finance/201610/122721.html" title="" target="_blank">经济领域的执政骨干从哪里来？习近平做了重要论述</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/society/" title="社会" target="_blank">社会</a>]</span> <a href="http://www.szhgh.com/Article/news/society/2016-10-23/123309.html" title="" target="_blank">南街村集团参展第二十二届郑交会</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/mil/" title="军事" target="_blank">军事</a>]</span> <a href="http://www.szhgh.com/Article/news/mil/201610/123246.html" title="" target="_blank">王洪光中将：解放军应集中精锐加强战备准备夺取台湾</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/comments/" title="时评" target="_blank">时评</a>]</span> <a href="http://www.szhgh.com/Article/news/comments/2016-10-22/123297.html" title="" target="_blank">军刊：任何时候都不该向爱国主义泼冷水</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/world/" title="国际" target="_blank">国际</a>]</span> <a href="http://www.szhgh.com/Article/news/world/2016-10-22/123285.html" title="" target="_blank">土逗报|我是那飘零的六分之一，谁能赏识我的美丽</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/world/" title="国际" target="_blank">国际</a>]</span> <a href="http://www.szhgh.com/Article/news/world/2016-10-21/123231.html" title="" target="_blank">澳媒：特朗普现象暴露美国美德丧失</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/news/fanfu/" title="反腐" target="_blank">反腐</a>]</span> <a href="http://www.szhgh.com/Article/news/fanfu/2016-10-21/123225.html" title="" target="_blank">《永远在路上》第四集：利剑出鞘</a></li>
+                                                                    </ul>                                    
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="right_section section">
+
+                        <!-- 纵论天下 -->
+                                                <div class="section_header">
+                            <strong><a href="http://www.szhgh.com/Article/opinion/" title="纵论天下" target="_blank">纵论天下</a></strong>
+                            <em>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/opinion/wp/" title="红歌会网评" target="_blank">红歌会网评</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/opinion/xuezhe/" title="学者观点" target="_blank">学者观点</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/opinion/weibo/" title="微博天下" target="_blank">微博天下</a></span>
+                                
+                                <a class="morebutton" href="http://www.szhgh.com/Article/opinion/" title="点击查看更多" target="_blank"></a>
+                            </em>
+                            <div class="clear"></div>
+                        </div>                        <div class="section_content">
+
+                                                        <h2><a href="http://www.szhgh.com/Article/opinion/" title="" target="_blank">望长城内外：不一样的“长征”</a></h2>
+                                                        <div class="middle">
+                                <div class="left">
+                                                                        <a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-21/123241.html" title="张志坤：未到长城亦好汉——以此纪念红军长征胜利八十周年" target="_blank"><img src="http://ww4.sinaimg.cn/mw690/98fe75a2jw1f8zxyai36hj20oa0buabo.jpg" /></a>
+                                    <h4><a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-21/123241.html" title="张志坤：未到长城亦好汉——以此纪念红军长征胜利八十周年" target="_blank">张志坤：未到长城亦好汉——以此纪念红军长征胜利八十周年</a></h4><div class="transparent_bg"></div>
+                                                                    </div>
+                                <div class="right">
+                                    <ul>
+                                                                                <li><a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-22/123281.html" title="" target="_blank">萧武：革命不是请客吃饭，长征不是心灵鸡汤</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-21/123241.html" title="" target="_blank">张志坤：未到长城亦好汉——以此纪念红军长征胜利八十周年</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-21/123211.html" title="" target="_blank">孙锡良：毛泽东的长征</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-20/123144.html" title="" target="_blank">黄卫东：林毅夫的“照搬西方理论行不通”，是继续推销西方忽悠</a></li>
+                                                                            </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-23/123314.html" title="" target="_blank">为我们河南近亿工农群众的阶级姐妹周秀云伸张正义！</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-23/123311.html" title="" target="_blank">邋遢道人：杨继绳自己算的数靠谱吗？——读“有感”有感之三</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/201610/123167.html" title="" target="_blank">陈中华：人大教授毛寿龙市场论，勿用在科学家与戏子上</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/201610/123190.html" title="" target="_blank">只字不提毛主席，哪有红军的信仰？哪有“长征精神”？</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/201610/123214.html" title="" target="_blank">红军长征前夕的恶战：1934年9月闽西松毛岭之战</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/201610/123295.html" title="" target="_blank">杜特尔特总统访华抽了天则所和“陈大状”的耳光</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/201610/123300.html" title="" target="_blank">陈石宇：没有遵义会议，长征会胜利吗？</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-22/123298.html" title="" target="_blank">月下孤僧：蒋介石丢失的领土比慈禧太后多得多！</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/xuezhe/" title="学者观点" target="_blank">学者观点</a>]</span> <a href="http://www.szhgh.com/Article/opinion/xuezhe/2016-10-22/123291.html" title="" target="_blank">邢成举：结构性贫困与精英俘获</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/opinion/zatan/" title="网友杂谈" target="_blank">网友杂谈</a>]</span> <a href="http://www.szhgh.com/Article/opinion/zatan/2016-10-22/123290.html" title="" target="_blank">一息尚存：二万五与“二百五”</a></li>
+                                                                    </ul>                                    
+                            </div>
+                        </div>
+
+                        <!-- 唱读讲传 -->
+                                                <div class="section_header">
+                            <strong><a href="http://www.szhgh.com/Article/cdjc/" title="唱读讲传" target="_blank">唱读讲传</a></strong>
+                            <em>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/cdjc/hongge/" title="唱红歌" target="_blank">唱红歌</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/cdjc/jingdian/" title="读经典" target="_blank">读经典</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/cdjc/gushi/" title="讲故事" target="_blank">讲故事</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/cdjc/zhengqi/" title="传正气" target="_blank">传正气</a></span>
+                                
+                                <a class="morebutton" href="http://www.szhgh.com/Article/cdjc/" title="点击查看更多" target="_blank"></a>
+                            </em>
+                            <div class="clear"></div>
+                        </div>                        <div class="section_content">
+
+                                                        <h2><a href="http://www.szhgh.com/Article/cdjc/" title="" target="_blank">新华社等批作业本:捍卫英雄就是捍卫民族魂</a></h2>
+                                                        <div class="middle">
+                                <div class="left">
+                                                                        <a href="http://www.szhgh.com/Article/cdjc/zhengqi/2016-09-20/121450.html" title="“作业本”孙杰、加多宝公司被判向邱少云之弟道歉并赔偿1元" target="_blank"><img src="http://image.thepaper.cn/www/image/5/160/947.jpg" /></a>
+                                    <h4><a href="http://www.szhgh.com/Article/cdjc/zhengqi/2016-09-20/121450.html" title="“作业本”孙杰、加多宝公司被判向邱少云之弟道歉并赔偿1元" target="_blank">“作业本”孙杰、加多宝公司被判向邱少云之弟道歉并赔偿1元</a></h4><div class="transparent_bg"></div>
+                                    <div class="clear"></div>
+                                                                    </div>
+                                <div class="right">
+                                    <ul>
+                                                                                <li><a href="http://www.szhgh.com/Article/cdjc/zhengqi/2016-09-24/121690.html" title="" target="_blank">央视、人民日报、新华社批作业本：捍卫英雄就是捍卫民族魂</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/cdjc/zhengqi/2016-09-20/121450.html" title="" target="_blank">“作业本”孙杰、加多宝公司被判向邱少云之弟道歉并赔偿1元</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/cdjc/zhengqi/2016-09-02/120447.html" title="" target="_blank">赵小鲁：天佑我中华——承办《狼牙山五壮士名誉案》致委托人的结案报告</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/cdjc/zhengqi/201608/119068.html" title="" target="_blank">各界人士就王长江反党事件致中央党校公开信</a></li>
+                                                                            </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/hongge/" title="唱红歌" target="_blank">唱红歌</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/hongge/201610/123242.html" title="" target="_blank">网友原创《红歌唱响长征精神》专题音乐节目</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/jingdian/" title="读经典" target="_blank">读经典</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/jingdian/2016-10-20/123178.html" title="" target="_blank">鹿野：马克思主义把鲁迅提升到新境界</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/jingdian/" title="读经典" target="_blank">读经典</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/jingdian/2016-10-20/123169.html" title="" target="_blank">《红星照耀中国》的重要价值及深远影响</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/jingdian/" title="读经典" target="_blank">读经典</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/jingdian/201610/122648.html" title="" target="_blank">邱海平：《资本论》为什么遭那么多人反感？</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/jingdian/" title="读经典" target="_blank">读经典</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/jingdian/201610/122517.html" title="" target="_blank">1978年思想解放运动 哲学上的反动</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/hongge/" title="唱红歌" target="_blank">唱红歌</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/hongge/2016-10-11/122642.html" title="" target="_blank">歌颂斯大林歌曲入选俄罗斯爱国曲目</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/jingdian/" title="读经典" target="_blank">读经典</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/jingdian/2016-09-30/122069.html" title="" target="_blank">郝贵生：列宁帝国主义论的当代启示——纪念列宁写作《帝国主义论》100周年</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/zhengqi/" title="传正气" target="_blank">传正气</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/zhengqi/2016-10-06/122386.html" title="" target="_blank">英雄 | 普天同庆时，英雄驾鹤去——王锋同死神搏斗136天后牺牲</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/zhengqi/" title="传正气" target="_blank">传正气</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/zhengqi/2016-10-05/122324.html" title="" target="_blank">杜家毫许达哲等向革命烈士敬献花篮并参观红军长征展览</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/cdjc/hongge/" title="唱红歌" target="_blank">唱红歌</a>]</span> <a href="http://www.szhgh.com/Article/cdjc/hongge/2016-10-05/122311.html" title="" target="_blank">《人民节》万岁</a></li>
+                                                                    </ul>                                    
+                            </div>
+                        </div>                           
+
+                    </div>   
+                    <div class="clear"></div>
+                </div>
+
+                <!-- 广告二区 -->
+                <div class="box_skitter ad_area_2">
+                    <ul>
+                        <script src="http://www.szhgh.com/d/js/acmsd/thea7.js"></script>
+                    </ul>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('.ad_area_2').skitter({
+                            theme: 'minimalist',
+                            dots: false,
+                            preview: false,
+                            numbers: false,
+                            navigation: false,
+                            interval: 3000,
+                            with_animations: ['swapBarsBack', 'cubeShow', 'swapBars', 'circlesRotate', 'hideBars', 'circlesInside', 'downBars', 'cut', 'upBars', 'swapBlocks']
+                        });
+                    });
+                </script>
+
+
+                <div class="base_module module">
+                    <div class="left_section section">
+
+                        <!-- 人民健康 -->
+                                                <div class="section_header">
+                            <strong><a href="http://www.szhgh.com/Article/health/" title="人民健康" target="_blank">人民健康</a></strong>
+                            <em>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/health/zjy/" title="转基因" target="_blank">转基因</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/health/zhongyi/" title="中医" target="_blank">中医</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/health/baojian/" title="保健" target="_blank">保健</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/health/food/" title="食品安全" target="_blank">食品安全</a></span>
+                                
+                                <a class="morebutton" href="http://www.szhgh.com/Article/health/" title="点击查看更多" target="_blank"></a>
+                            </em>
+                            <div class="clear"></div>
+                        </div>                        <div class="section_content">
+
+                                                        <h2><a href="http://www.szhgh.com/Article/health/" title="" target="_blank">盛世小白鼠:由转基因检测中心造假想到的</a></h2>
+                                                        <div class="middle">
+                                <div class="left">
+                                                                        <a href="http://www.szhgh.com/Article/health/zjy/2016-09-21/121500.html" title="海石：盛世小白鼠——由国家转基因检测中心造假想到的" target="_blank"><img src="http://ww2.sinaimg.cn/mw690/98fe75a2jw1f80yv6n71rj20dw084gml.jpg" /></a>
+                                    <h4><a href="http://www.szhgh.com/Article/health/zjy/2016-09-21/121500.html" title="海石：盛世小白鼠——由国家转基因检测中心造假想到的" target="_blank">海石：盛世小白鼠——由国家转基因检测中心造假想到的</a></h4><div class="transparent_bg"></div>
+                                                                    </div>
+                                <div class="right">
+                                    <ul>
+                                                                                <li><a href="http://www.szhgh.com/Article/health/zjy/2016-09-21/121500.html" title="" target="_blank">海石：盛世小白鼠——由国家转基因检测中心造假想到的</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/health/zjy/2016-09-20/121442.html" title="" target="_blank">退学博士举报转基因检测机构造假 农业部调查组已介入</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/health/zjy/2016-09-17/121280.html" title="" target="_blank">千人联名致信商务部：反对中国化工集团并购先正达</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/health/zjy/2016-09-02/120399.html" title="" target="_blank">蒋高明：癌症的源头在哪里？</a></li>
+                                                                            </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/zhongyi/" title="中医" target="_blank">中医</a>]</span> <a href="http://www.szhgh.com/Article/health/zhongyi/2016-10-21/123230.html" title="" target="_blank">中医药国际标准实现多个零的突破</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/zjy/" title="转基因" target="_blank">转基因</a>]</span> <a href="http://www.szhgh.com/Article/health/zjy/2016-10-14/122816.html" title="" target="_blank">发改委禁止外商涉及转基因选育及粮食批发收购</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/zjy/" title="转基因" target="_blank">转基因</a>]</span> <a href="http://www.szhgh.com/Article/health/zjy/2016-10-13/122775.html" title="" target="_blank">转基因作物非法种植事件为何屡屡曝出？是不能禁止，还是不愿禁止？</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/food/" title="食品安全" target="_blank">食品安全</a>]</span> <a href="http://www.szhgh.com/Article/health/food/201610/122662.html" title="" target="_blank">粮食安全，该高度重视了！</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/zhongyi/" title="中医" target="_blank">中医</a>]</span> <a href="http://www.szhgh.com/Article/health/zhongyi/2016-10-11/122646.html" title="" target="_blank">洋人能把中医学成这样，国人情何以堪</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/food/" title="食品安全" target="_blank">食品安全</a>]</span> <a href="http://www.szhgh.com/Article/health/food/2016-10-08/122485.html" title="" target="_blank">竟然是癌白菜，千万别再吃了！请告诉更多人！</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/zjy/" title="转基因" target="_blank">转基因</a>]</span> <a href="http://www.szhgh.com/Article/health/zjy/2016-10-08/122484.html" title="" target="_blank">陈一文：向国家癌症中心赵方辉博士质问“宫颈癌疫苗”相关9问题</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/zhongyi/" title="中医" target="_blank">中医</a>]</span> <a href="http://www.szhgh.com/Article/health/zhongyi/2016-10-06/122363.html" title="" target="_blank">我们来自中国：中医药 走向世界的中国古代科学</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/zhongyi/" title="中医" target="_blank">中医</a>]</span> <a href="http://www.szhgh.com/Article/health/zhongyi/2016-10-06/122357.html" title="" target="_blank">邓铁涛在全国经方班的拳拳呼声</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/health/zhongyi/" title="中医" target="_blank">中医</a>]</span> <a href="http://www.szhgh.com/Article/health/zhongyi/2016-10-03/122205.html" title="" target="_blank">今天如何做中医？颜新：中医真正的生命力是疗效</a></li>
+                                                                    </ul>                                    
+                            </div>
+                        </div>
+
+                        <!-- 文史读书 -->
+                                                <div class="section_header">
+                            <strong><a href="http://www.szhgh.com/Article/wsds/" title="文史·读书" target="_blank">文史·读书</a></strong>
+                            <em>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/wsds/wenyi/" title="文艺" target="_blank">文艺</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/wsds/culture/" title="文化" target="_blank">文化</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/wsds/history/" title="历史" target="_blank">历史</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/wsds/read/" title="读书" target="_blank">读书</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/wsds/youth/" title="青年" target="_blank">青年</a></span>
+                                
+                                <a class="morebutton" href="http://www.szhgh.com/Article/wsds/" title="点击查看更多" target="_blank"></a>
+                            </em>
+                            <div class="clear"></div>
+                        </div>                        <div class="section_content">
+
+                                                        <h2><a href="http://www.szhgh.com/Article/wsds/" title="" target="_blank">新工人艺术团音乐实践的文化政治意义</a></h2>
+                                                        <div class="middle">
+                                <div class="left">
+                                                                        <a href="http://www.szhgh.com/Article/wsds/wenyi/2016-10-08/122480.html" title="影评：从电影《湄公河行动》体味新中国之伟大" target="_blank"><img src="http://imgcdn.jiupaicn.com/jiupainews/20161007014244454.jpg" /></a>
+                                    <h4><a href="http://www.szhgh.com/Article/wsds/wenyi/2016-10-08/122480.html" title="影评：从电影《湄公河行动》体味新中国之伟大" target="_blank">影评：从电影《湄公河行动》体味新中国之伟大</a></h4><div class="transparent_bg"></div>
+                                                                    </div>
+                                <div class="right">
+                                    <ul>
+                                                                                <li><a href="http://www.szhgh.com/Article/wsds/wenyi/2016-10-08/122480.html" title="" target="_blank">影评：从电影《湄公河行动》体味新中国之伟大</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/wsds/wenyi/2016-09-22/121575.html" title="" target="_blank">郭春林：“新工人艺术团”音乐实践的文化政治意义</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/wsds/read/2016-09-22/121608.html" title="" target="_blank">杨斌：残酷的全球金融战争屠杀战场</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/wsds/wenyi/2016-09-20/121469.html" title="" target="_blank">郭松民：印度人民与井冈山道路——评电影《无法避免的战争》</a></li>
+                                                                            </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/culture/" title="文化" target="_blank">文化</a>]</span> <a href="http://www.szhgh.com/Article/wsds/culture/2016-10-23/123320.html" title="" target="_blank">《共和国将帅肖像油画集》首发式在北京举行（组图）</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/youth/" title="青年" target="_blank">青年</a>]</span> <a href="http://www.szhgh.com/Article/wsds/youth/2016-10-23/123319.html" title="" target="_blank">大二女生怀孕父母助其弃子 三人因遗弃罪被判刑</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/wenyi/" title="文艺" target="_blank">文艺</a>]</span> <a href="http://www.szhgh.com/Article/wsds/wenyi/2016-10-23/123308.html" title="" target="_blank">铁索寒：久违，《农友歌》再度唱响央视荧屏</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/wenyi/" title="文艺" target="_blank">文艺</a>]</span> <a href="http://www.szhgh.com/Article/wsds/wenyi/201610/123188.html" title="" target="_blank">徐州孟宪达：拿什么慰藉您的英灵</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/culture/" title="文化" target="_blank">文化</a>]</span> <a href="http://www.szhgh.com/Article/wsds/culture/201610/123245.html" title="" target="_blank">清华教授认为用“老公”称呼丈夫不雅，有语言学者不认同</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/history/" title="历史" target="_blank">历史</a>]</span> <a href="http://www.szhgh.com/Article/wsds/history/201610/123276.html" title="" target="_blank">为“张钦礼”“红旗渠”两大冤案平反是中国最迫切的拨乱返正</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/history/" title="历史" target="_blank">历史</a>]</span> <a href="http://www.szhgh.com/Article/wsds/history/2016-10-22/123294.html" title="" target="_blank">菲共创始人西松：文化大革命对菲律宾共产党的冲击</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/history/" title="历史" target="_blank">历史</a>]</span> <a href="http://www.szhgh.com/Article/wsds/history/2016-10-22/123277.html" title="" target="_blank">人类共有的精神财富——外国学者高度评价长征，驳斥张戎造谣</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/history/" title="历史" target="_blank">历史</a>]</span> <a href="http://www.szhgh.com/Article/wsds/history/2016-10-20/123156.html" title="" target="_blank">刘少奇在最后日子里，到底有没有遭受非人待遇</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/wsds/history/" title="历史" target="_blank">历史</a>]</span> <a href="http://www.szhgh.com/Article/wsds/history/2016-10-19/123108.html" title="" target="_blank">现实版《麻雀》:毛泽东学生设计毒杀头号汉奸</a></li>
+                                                                    </ul>                                    
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="right_section section">
+
+                        <!-- 工农之声 -->
+                                                <div class="section_header">
+                            <strong><a href="http://www.szhgh.com/Article/gnzs/" title="工农家园" target="_blank">工农家园</a></strong>
+                            <em>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/gnzs/farmer/" title="农民关注" target="_blank">农民关注</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/gnzs/worker/" title="工友之家" target="_blank">工友之家</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/gnzs/gongyi/" title="公益慈善" target="_blank">公益慈善</a></span>
+                                
+                                <a class="morebutton" href="http://www.szhgh.com/Article/gnzs/" title="点击查看更多" target="_blank"></a>
+                            </em>
+                            <div class="clear"></div>
+                        </div>                        <div class="section_content">
+
+                                                        <h2><a href="http://www.szhgh.com/Article/gnzs/" title="" target="_blank">周秀云近亲属遭官方"深夜调查"威胁"私了"</a></h2>
+                                                        <div class="middle">
+                                <div class="left">
+                                                                        <a href="http://www.szhgh.com/Article/gnzs/worker/2016-10-11/122619.html" title="周秀云案最新消息：周秀云近亲属多次遭官方“深夜调查” 被威胁“私了”" target="_blank"><img src="http://img.wyzxwk.com/p/2016/07/dce8fcf3202d6bb471e9e3a51874d2eb.jpg" /></a>
+                                    <h4><a href="http://www.szhgh.com/Article/gnzs/worker/2016-10-11/122619.html" title="周秀云案最新消息：周秀云近亲属多次遭官方“深夜调查” 被威胁“私了”" target="_blank">周秀云案最新消息：周秀云近亲属多次遭官方“深夜调查” 被威胁“私了”</a></h4><div class="transparent_bg"></div>
+                                                                    </div>
+                                <div class="right">
+                                    <ul>
+                                                                                <li><a href="http://www.szhgh.com/Article/news/" title="" target="_blank">长征精神，习近平最重视什么？</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/gnzs/worker/2016-10-11/122619.html" title="" target="_blank">周秀云案最新消息：周秀云近亲属多次遭官方“深夜调查” 被威胁“私了”</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/gnzs/farmer/2016-10-02/122152.html" title="" target="_blank">中国种业调研：只见资本笑，不见农民哭，政府当何为？</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/gnzs/farmer/2016-08-04/118718.html" title="" target="_blank">周秀云案最新进展：太原市公安局驳回周秀云家属游行示威申请</a></li>
+                                                                            </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/worker/" title="工友之家" target="_blank">工友之家</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/worker/2016-10-18/123075.html" title="" target="_blank">农民工作为被雇佣的非雇用工人与中国道路的边界及命运</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/gongyi/" title="公益慈善" target="_blank">公益慈善</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/gongyi/2016-10-18/123047.html" title="" target="_blank">全国首辆动物救护车难上路 没有车牌等待摇号</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/farmer/" title="农民关注" target="_blank">农民关注</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/farmer/2016-10-15/122875.html" title="" target="_blank">袁隆平青岛研发海水稻：盐碱地变良田可养活2亿人</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/farmer/" title="农民关注" target="_blank">农民关注</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/farmer/2016-10-13/122769.html" title="" target="_blank">从社会力量主导的新农村建设看乡村复兴之路</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/worker/" title="工友之家" target="_blank">工友之家</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/worker/2016-10-13/122766.html" title="" target="_blank">致癌工序杀88人：三星工厂致员工罹患职业病</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/farmer/" title="农民关注" target="_blank">农民关注</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/farmer/201610/122268.html" title="" target="_blank">顾秀林：新范式 “新三农”——转帖蒋高明《高效生态农业与‘新三农’》</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/worker/" title="工友之家" target="_blank">工友之家</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/worker/2016-10-02/122156.html" title="" target="_blank">女力潮流：她们的硬照rock爆了整个工业区</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/gongyi/" title="公益慈善" target="_blank">公益慈善</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/gongyi/201609/121758.html" title="" target="_blank">让无声世界，听爱的呼唤</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/gongyi/" title="公益慈善" target="_blank">公益慈善</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/gongyi/201609/121662.html" title="" target="_blank">第三个烈士节来临前：没有家属的烈士该由谁来维权？</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/gnzs/worker/" title="工友之家" target="_blank">工友之家</a>]</span> <a href="http://www.szhgh.com/Article/gnzs/worker/2016-09-28/121918.html" title="" target="_blank">宁夏石嘴山煤矿爆炸已致19人遇难 企业负责人被控制</a></li>
+                                                                    </ul>                                    
+                            </div>
+                        </div>
+
+                        <!-- 第三世界 -->
+                                                <div class="section_header">
+                            <strong><a href="http://www.szhgh.com/Article/thirdworld/" title="第三世界" target="_blank">第三世界</a></strong>
+                            <em>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/thirdworld/korea/" title="朝鲜" target="_blank">朝鲜</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/thirdworld/cuba/" title="古巴" target="_blank">古巴</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/thirdworld/latin-america/" title="拉美" target="_blank">拉美</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/thirdworld/africa/" title="非洲" target="_blank">非洲</a></span>
+                                
+                                                                <span><a href="http://www.szhgh.com/Article/thirdworld/asia/" title="亚洲" target="_blank">亚洲</a></span>
+                                
+                                <a class="morebutton" href="http://www.szhgh.com/Article/thirdworld/" title="点击查看更多" target="_blank"></a>
+                            </em>
+                            <div class="clear"></div>
+                        </div>                        <div class="section_content">
+                                                        <h2><a href="http://www.szhgh.com/Article/thirdworld/" title="" target="_blank">朝鲜军方:要将首尔变成废墟 并抹平关岛</a></h2>
+                                                        <div class="middle">
+                                <div class="left">
+                                                                        <a href="http://www.szhgh.com/Article/thirdworld/korea/2016-09-26/121763.html" title="朝鲜军方：要将首尔变成废墟 并抹平关岛" target="_blank"><img src="http://img1.gtimg.com/news/pics/hv1/171/184/2133/138745416.jpg" /></a>
+                                    <h4><a href="http://www.szhgh.com/Article/thirdworld/korea/2016-09-26/121763.html" title="朝鲜军方：要将首尔变成废墟 并抹平关岛" target="_blank">朝鲜军方：要将首尔变成废墟 并抹平关岛</a></h4><div class="transparent_bg"></div>
+                                                                    </div>
+                                <div class="right">
+                                    <ul>
+                                                                                <li><a href="http://www.szhgh.com/Article/thirdworld/korea/2016-09-26/121763.html" title="" target="_blank">朝鲜军方：要将首尔变成废墟 并抹平关岛</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/thirdworld/asia/2016-09-08/120773.html" title="" target="_blank">伊朗快艇“群狼”再戏美军“大象”</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/thirdworld/korea/2016-08-24/119917.html" title="" target="_blank">朝鲜潜射弹道导弹试验大获成功 中日韩美反对</a></li>
+                                                                                <li><a href="http://www.szhgh.com/Article/thirdworld/korea/2016-07-11/117179.html" title="" target="_blank">朝鲜发“重大警告”回应部署萨德：将敌方烧成灰烬</a></li>
+                                                                            </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/asia/" title="亚洲" target="_blank">亚洲</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/asia/2016-10-20/123151.html" title="" target="_blank">伊朗判两名美国人间谍罪 一人曾担任省长</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/asia/" title="亚洲" target="_blank">亚洲</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/asia/2016-10-19/123117.html" title="" target="_blank">杜特尔特：执行“南海仲裁”决定或引第三次世界大战</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/asia/" title="亚洲" target="_blank">亚洲</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/asia/2016-10-17/122968.html" title="" target="_blank">杜特尔特：不会和美国巡逻南海 美国也不会为我们牺牲</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/asia/" title="亚洲" target="_blank">亚洲</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/asia/2016-10-15/122876.html" title="" target="_blank">“萨德”已落地 韩总统智囊建议部署核武</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/asia/" title="亚洲" target="_blank">亚洲</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/asia/2016-10-14/122803.html" title="" target="_blank">泰国国王去世民众悲泣晕倒 王储将暂缓继位</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/korea/" title="朝鲜" target="_blank">朝鲜</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/korea/2016-10-12/122676.html" title="" target="_blank">裂变中求生存：朝鲜核爆背后的半岛危机真相！</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/asia/" title="亚洲" target="_blank">亚洲</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/asia/2016-10-10/122540.html" title="" target="_blank">最新数据：“伊斯兰国”地盘缩水近三成</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/korea/" title="朝鲜" target="_blank">朝鲜</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/korea/2016-10-10/122539.html" title="" target="_blank">朝鲜建党日美韩联合海上军演</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/africa/" title="非洲" target="_blank">非洲</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/africa/2016-10-04/122240.html" title="" target="_blank">非洲第一条中国标准跨国电气化铁路即将通车</a></li>
+                                                                        <li><span>[<a href="http://www.szhgh.com/Article/thirdworld/asia/" title="亚洲" target="_blank">亚洲</a>]</span> <a href="http://www.szhgh.com/Article/thirdworld/asia/2016-10-03/122190.html" title="" target="_blank">也门胡塞武装以伊朗仿中国反舰导弹击沉阿联酋海军运输船</a></li>
+                                                                    </ul>                                    
+                            </div>
+                        </div>
+
+                    </div>   
+                    <div class="clear"></div>
+                </div>
+            </div>  
+            <div class="clear"></div>
+        </div>
+        <!-- main end -->
+
+        <!-- friendlink -->
+        <div class="friendlink">
+            <div class="friendlink_header"><strong>友情链接</strong></div>
+            <div class="linkbox">
+                <ul>
+                                        <li><a href="http://thegroundbreaking.com/" title="破土网" target="_blank">破土网</a></li>
+                                        <li><a href="http://www.kunlunce.com/" title="昆仑策网" target="_blank">昆仑策网</a></li>
+                                        <li><a href="http://www.kcna.kp/kcna.user.home.retrieveHomeInfoList.kcmsf;jsessionid=969BCEC33E1FA510C19C98B20FCAF89B?lang=chn" title="朝中社中文网" target="_blank">朝中社中文网</a></li>
+                                        <li><a href="http://www.zuodapei.com/" title="左大培网" target="_blank">左大培网</a></li>
+                                        <li><a href="http://www.mzfxw.com/" title="复兴网" target="_blank">复兴网</a></li>
+                                        <li><a href="http://www.wyzxwk.com/" title="乌有之乡" target="_blank">乌有之乡</a></li>
+                                        <li><a href="http://www.haijiangzx.com/" title="海疆在线" target="_blank">海疆在线</a></li>
+                                        <li><a href="http://hswh.org.cn/" title="红色文化网" target="_blank">红色文化网</a></li>
+                                        <li><a href="http://zhurengong.net/" title="主人公网" target="_blank">主人公网</a></li>
+                                        <li><a href="http://www.anhesiji.com/index.php" title="安和四季网" target="_blank">安和四季网</a></li>
+                                        <li><a href="http://www.xizhengw.com/" title="西征网" target="_blank">西征网</a></li>
+                                        <li><a href="http://www.nfcmag.com/" title="南风窗" target="_blank">南风窗</a></li>
+                                        <li><a href="http://hao.szhgh.com/" title="左派网址大全" target="_blank">左派网址大全</a></li>
+                                        <li><a href="http://www.dooo.cc/" title="独家网" target="_blank">独家网</a></li>
+                                        <li><a href="http://www.gczy.org/" title="共产网" target="_blank">共产网</a></li>
+                                        <li><a href="http://www.clsddhw.com/" title="山丹丹红网" target="_blank">山丹丹红网</a></li>
+                                        <li><a href="http://www.baijiahefu.com/" title="百家合符" target="_blank">百家合符</a></li>
+                                        <li><a href="http://www.54qnw.net" title="五四青年网" target="_blank">五四青年网</a></li>
+                                        <li><a href="http://www.maoflag.cn/" title="毛泽东思想旗帜" target="_blank">毛泽东思想旗帜</a></li>
+                                        <li><a href="http://www.mzdlib.com/" title="毛泽东图书馆" target="_blank">毛泽东图书馆</a></li>
+                                        <li><a href="http://sgdh.pw/" title="曙光导航" target="_blank">曙光导航</a></li>
+                                        <li><a href="http://chanyeren.com/" title="产业人网" target="_blank">产业人网</a></li>
+                                        <li><a href="http://www.shiwuzq.com/" title="人民食物主权" target="_blank">人民食物主权</a></li>
+                                        <li><a href="http://www.cwzg.cn/" title="察网中国" target="_blank">察网中国</a></li>
+                                        <li><a href="http://www.hxw.org.cn/" title="华夏网" target="_blank">华夏网</a></li>
+                                        <li><a href="http://www.m4.cn/" title="四月网" target="_blank">四月网</a></li>
+                                        <li><a href="http://www.guancha.cn/" title="观察者网" target="_blank">观察者网</a></li>
+                                        <li><a href="http://www.globalview.cn/" title="环球视野" target="_blank">环球视野</a></li>
+                                        <li><a href="http://www.dongboshuyuan.com/" title="东博书院网" target="_blank">东博书院网</a></li>
+                                        <li><a href="http://www.caogen.com/" title="草根网" target="_blank">草根网</a></li>
+                                        <li><a href="http://www.xingongren21.com/" title="新工人网" target="_blank">新工人网</a></li>
+                                        <li><a href="http://www.crt.com.cn/" title="中红网" target="_blank">中红网</a></li>
+                                        <li><a href="http://www.tianong.cn/" title="天农网" target="_blank">天农网</a></li>
+                                        <li><a href="http://www.huanqiu.com/" title="环球网" target="_blank">环球网</a></li>
+                                        <li><a href="http://www.xinruijunshi.com/" title="新锐军事" target="_blank">新锐军事</a></li>
+                                        <li><a href="http://www.snzg.cn/" title="三农中国" target="_blank">三农中国</a></li>
+                                        <li><a href="http://www.weiweikl.com/" title="巍巍昆仑网" target="_blank">巍巍昆仑网</a></li>
+                                        <li><a href="http://www.mzdbl.cn/" title="毛泽东博览网" target="_blank">毛泽东博览网</a></li>
+                                        <li><a href="http://www.redgx.com/" title="红色故乡网" target="_blank">红色故乡网</a></li>
+                                        <li><a href="http://www.mzdwh.com" title="东方毛泽东" target="_blank">东方毛泽东</a></li>
+                                        <li><a href="http://www.xinminxuehui.org" title="新民在线" target="_blank">新民在线</a></li>
+                                        <li><a href="http://www.nanjiecun.cn/" title="南街村网" target="_blank">南街村网</a></li>
+                                        <li><a href="http://bbs1.people.com.cn/" title="强国社区" target="_blank">强国社区</a></li>
+                                        <li><a href="http://www.unanhai.com/" title="南海三沙网" target="_blank">南海三沙网</a></li>
+                                        <li><a href="http://www.chinaiiss.com/" title="战略军事" target="_blank">战略军事</a></li>
+                                        <li><a href="http://hangmu.chinaiiss.com/ " title="辽宁舰" target="_blank">辽宁舰</a></li>
+                                        <li><a href="http://www.politician.com.cn/" title="政治家网" target="_blank">政治家网</a></li>
+                                        <li><a href="http://www.qiankundaluewang.com/" title="乾坤大略网" target="_blank">乾坤大略网</a></li>
+                                        <li><a href="http://www.hsgl.com.cn/" title="红色管理" target="_blank">红色管理</a></li>
+                                        <li><a href="http://www.hsth.org/" title="红色太行网" target="_blank">红色太行网</a></li>
+                                        <li><a href="http://bbs.miercn.com " title="米尔军情网" target="_blank">米尔军情网</a></li>
+                                        <li><a href="http://blog.sina.com.cn/yutaiwenhua" title="宇太博客" target="_blank">宇太博客</a></li>
+                                        <div class="clear"></div>
+                </ul>
+            </div>
+        </div>
+
+        <!-- friendlink -->
+
+
+        <!-- footer -->
+        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<div class="footer">
+    <div class="sitemap">
+        <ul class="mapul">
+            <li class="mapli first">
+                <strong><a href="http://www.szhgh.com/Article/news/" title="资讯中心" target="_blank">资讯中心</a></strong>
+                <ul class='specialstyle'>
+                    <li><a href="http://www.szhgh.com/gundong/" title="滚动" target="_blank">滚动</a></li>
+                    <li><a href="http://www.szhgh.com/Article/news/politics/" title="时政" target="_blank">时政</a></li>
+                    <li><a href="http://www.szhgh.com/Article/news/world/" title="国际" target="_blank">国际</a></li>
+                    <li><a href="http://www.szhgh.com/Article/news/leaders/" title="高层" target="_blank">高层</a></li>
+                    <li><a href="http://www.szhgh.com/Article/news/gangaotai/" title="港澳台" target="_blank">港澳台</a></li>
+                    <li><a href="http://www.szhgh.com/Article/news/society/" title="社会" target="_blank">社会</a></li>
+                    <li><a href="http://www.szhgh.com/Article/news/fanfu/" title="反腐" target="_blank">反腐</a></li>
+                    <li><a href="http://www.szhgh.com/Article/news/chujian/" title="除奸" target="_blank">除奸</a></li>  
+                    <div class="clear"></div>
+                </ul>
+                <div class="clear"></div>
+            </li>
+            <li class="mapli">
+                <strong><a href="http://www.szhgh.com/Article/opinion/" title="纵论天下" target="_blank">纵论天下</a></strong>
+                <ul>
+                    <li><a href="http://www.szhgh.com/Article/opinion/wp/" title="红歌会网评" target="_blank">红歌会网评</a></li>
+                    <li><a href="http://www.szhgh.com/Article/opinion/xuezhe/" title="学者观点" target="_blank">学者观点</a></li>
+                    <li><a href="http://www.szhgh.com/Article/opinion/zatan/" title=" 网友杂谈" target="_blank"> 网友杂谈</a></li>
+                    <li><a href="http://www.szhgh.com/Article/opinion/weibo/" title="微博天下" target="_blank">微博天下</a></li>
+                </ul>
+                <div class="clear"></div>
+            </li>               
+            <li class="mapli">
+                <strong><a href="http://www.szhgh.com/Article/red-china/" title="红色中国" target="_blank">红色中国</a></strong>
+                <ul>
+                    <li><a href="http://www.szhgh.com/Article/red-china/mzd/" title=" 毛泽东" target="_blank"> 毛泽东</a></li>
+                    <li><a href="http://www.szhgh.com/Article/red-china/ideal/" title=" 理想园地" target="_blank"> 理想园地</a></li>
+                    <li><a href="http://www.szhgh.com/Article/red-china/redman/" title="红色人物" target="_blank">红色人物</a></li>
+                    <li><a href="http://www.szhgh.com/Article/red-china/tour/" title="红色旅游" target="_blank">红色旅游</a></li>
+                </ul>
+                <div class="clear"></div>
+            </li>
+            <li class="mapli">
+                <strong><a href="http://www.szhgh.com/Article/cdjc/" title="唱读讲传" target="_blank">唱读讲传</a></strong>
+                <ul>
+                    <li><a href="http://www.szhgh.com/Article/cdjc/hongge/" title="唱红歌" target="_blank">唱红歌</a></li>
+                    <li><a href="http://www.szhgh.com/Article/cdjc/jingdian/" title="读经典" target="_blank">读经典</a></li>
+                    <li><a href="http://www.szhgh.com/Article/cdjc/gushi/" title="讲故事" target="_blank">讲故事</a></li>
+                    <li><a href="http://www.szhgh.com/Article/cdjc/zhengqi/" title="传正气" target="_blank">传正气</a></li>
+                </ul>
+                <div class="clear"></div>
+            </li>                 
+            <li class="mapli">
+                <strong><a href="http://www.szhgh.com/Article/health/" title="人民健康" target="_blank">人民健康</a></strong>
+                <ul>
+                    <li><a href="http://www.szhgh.com/Article/health/zjy/" title="转基因" target="_blank">转基因</a></li>
+                    <li><a href="http://www.szhgh.com/Article/health/zhongyi/" title="中医" target="_blank">中医</a></li>
+                    <li><a href="http://www.szhgh.com/Article/health/baojian/" title="保健" target="_blank">保健</a></li>
+                    <li><a href="http://www.szhgh.com/Article/health/food/" title="食品安全" target="_blank">食品安全</a></li>
+                </ul>
+                <div class="clear"></div>
+            </li>
+             <li class="mapli">
+                <strong><a href="http://www.szhgh.com/Article/gnzs/" title="工农之声" target="_blank">工农之声</a></strong>
+                <ul>
+                    <li><a href="http://www.szhgh.com/Article/gnzs/farmer/" title="农民之声" target="_blank">农民之声</a></li>
+                    <li><a href="http://www.szhgh.com/Article/gnzs/worker/" title="工友之家" target="_blank">工友之家</a></li>
+                    <li><a href="http://www.szhgh.com/Article/gnzs/gongyi/" title="公益行动" target="_blank">公益行动</a></li>
+                </ul>
+                <div class="clear"></div>
+            </li>               
+            <li class="mapli">
+                <strong><a href="http://www.szhgh.com/Article/wsds/" title="文史·读书" target="_blank">文史读书</a></strong>
+                <ul class="specialstyle">
+                    <li><a href="http://www.szhgh.com/Article/wsds/wenyi/" title="文艺" target="_blank">文艺</a></li>
+                    <li><a href="http://www.szhgh.com/Article/wsds/culture/" title="文化" target="_blank">文化</a></li>
+                    <li><a href="http://www.szhgh.com/Article/wsds/history/" title="历史" target="_blank">历史</a></li>
+                    <li><a href="http://www.szhgh.com/Article/wsds/read/" title=" 读书" target="_blank"> 读书</a></li>
+                    <li><a href="http://www.szhgh.com/Article/wsds/youth/" title="青年" target="_blank">青年</a></li>
+                    <div class="clear"></div>
+                </ul>
+                <div class="clear"></div>
+            </li>
+            <li class="mapli">
+                <strong><a href="http://www.szhgh.com/Article/thirdworld/" title="第三世界" target="_blank">第三世界</a></strong>
+                <ul>
+                    <li><a href="http://www.szhgh.com/Article/thirdworld/korea/" title="朝鲜" target="_blank">朝鲜</a></li>
+                    <li><a href="http://www.szhgh.com/Article/thirdworld/cuba/" title="古巴" target="_blank">古巴</a></li>
+                    <li><a href="http://www.szhgh.com/Article/thirdworld/latin-america/" title="拉美" target="_blank">拉美</a></li>
+                    <li><a href="http://www.szhgh.com/Article/thirdworld/africa/" title="非洲" target="_blank">非洲</a></li>
+                </ul>
+                <div class="clear"></div>
+            </li>                
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <div class="copyright">
+        <ul>
+            <li class='copy_left'>
+                <div>
+                    <a href="http://www.szhgh.com/" title="红歌会网" target="_blank">红歌会网</a>
+                    | <a href="http://www.szhgh.com/html/sitemap.html" title="网站地图" target="_blank">网站地图</a>
+                    | <a href="http://www.szhgh.com/html/rank.html" title="排行榜" target="_blank">排行榜</a>
+                    | <a href="http://www.szhgh.com/Article/notice/20257.html" title="联系我们" target="_blank">联系我们</a>
+                    | <a href="http://www.szhgh.com/Article/opinion/zatan/13968.html" title="在线提意见" target="_blank">在线提意见</a>
+                </div>
+                <div>
+                    <a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备12077717号-1</a>
+                    | <script src="http://s20.cnzz.com/stat.php?id=3051861&web_id=3051861&show=pic1" language="JavaScript"></script>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2e62d7088e3926a4639571ba4c25de10' type='text/javascript'%3E%3C/script%3E"));
+</script>
+                </div>
+            </li>
+            <li class="focusbutton">
+                <a class="rss" href="http://www.szhgh.com/e/web/?type=rss2" title="欢迎订阅红歌会网" target="_blank"></a>
+                <a class="sinaweibo" href="http://weibo.com/szhgh?topnav=1&wvr=5&topsug=1" title="欢迎关注红歌会网新浪微博" target="_blank"></a>
+                <a class="qqweibo" href="http://follow.v.t.qq.com/index.php?c=follow&amp;a=quick&amp;name=szhgh001&amp;style=5&amp;t=1737191719&amp;f=1" title="欢迎关注红歌会网腾讯微博" target="_blank"></a>
+                <a class="qqmsg" href="http://wpa.qq.com/msgrd?Uin=1962727933" title="欢迎通过QQ联系我们" target="_blank"></a>
+                <a class="email" href="mailto:szhgh001@163.com" title="欢迎投稿或反映问题" target="_blank"></a>
+            </li>
+            <li class="focusmsg">
+                <div>网站QQ：<a href="http://wpa.qq.com/msgrd?Uin=1962727933" title="欢迎通过QQ联系我们" target="_blank">1962727933</a>&nbsp;&nbsp;红歌会网粉丝QQ群：35758473</div>
+                <div>(投稿)邮箱：<a href="mailto:szhgh001@163.com" title="欢迎投稿或反映问题" target="_blank">szhgh001@163.com</a></div>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+
+<script src="http://www.szhgh.com/skin/default/js/jquery.leanModal.min.js" type="text/javascript"></script>
+<div id="loginmodal" class="loginmodal" style="display:none;">
+    <div class="modaletools"><a class="hidemodal" title="点此关闭">×</a></div>
+    <form class="clearfix" name=login method=post action="http://www.szhgh.com/e/member/doaction.php">
+        <div class="login left">
+            <strong>会员登录</strong>
+            <input type=hidden name=enews value=login>
+            <input type=hidden name=ecmsfrom value=9>
+            <div id="username" class="txtfield username"><input name="username" type="text" size="16" /></div>
+            <div id="password" class="txtfield password"><input name="password" type="password" size="16" /></div>
+            <div class="forgetmsg"><a href="/e/member/GetPassword/" title="点此取回密码" target="_blank">忘记密码？</a></div>
+            <div class="poploginex"><script type="text/javascript">document.write('<script  type="text/javascript" src="http://www.szhgh.com/e/memberconnect/panjs.php?type=login&dclass=login&t='+Math.random()+'"><'+'/script>');</script></div>
+            <input type="submit" name="Submit" value="登陆" class="inputSub flatbtn-blu" />
+        </div>
+        <div class="reg right">
+            <div class="regmsg"><span>还不是会员？</span></div>
+            <input type="button" name="Submit2" value="立即注册" class="regbutton" onclick="window.open('http://www.szhgh.com/e/member/register/');" />
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    $(function(){
+      $('#loginform').submit(function(e){
+        return false;
+      });
+
+      $('#modaltrigger').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+      $('#modaltrigger_plinput').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+      
+      $('#username input').OnFocus({ box: "#username" });
+      $('#password input').OnFocus({ box: "#password" });
+
+    });
+</script>
+
+        <!-- footer end -->     
+
+        <!--浮动层 -->
+                <script type="text/javascript">
+                $(document).ready(function(){
+                        $('#welcome').fadeTo(2000, 1).delay(2000).animate({
+                            opacity: 0,
+                            marginTop: '-=200'
+                        },
+                        1000,
+                        function() {
+                            $('#welcome').hide();
+                        });
+                        $(window).scroll(function() {
+                            if ($(window).scrollTop() > 50) {
+                                $('#jump li:eq(0)').fadeIn(800);
+                            } else {
+                                $('#jump li:eq(0)').fadeOut(800);
+                            }
+                        });
+                        $("#totop").click(function() {
+                            $('body,html').animate({
+                                scrollTop: 0
+                            },
+                            1000);
+                            return false;
+                        });
+                });
+        </script>
+
+        <ul id="jump">
+            <li style="display:none;height:50px;padding-top:450px;"><a id="totop" title="返回顶部" href="#top"></a></li>
+            <li>
+                    <div id="EWM">
+                        <script src="http://www.szhgh.com/d/js/acmsd/thea9.js"></script>
+                        <div class="scanning"><a href="http://www.szhgh.com/e/public/ClickAd?adid=9" title="点击查看" target="_blank"> 扫一扫 每天精彩随身跑&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+                    </div>
+            </li>
+            <script>
+                function showEWM(){
+                    document.getElementById("EWM").style.display = 'block';
+                }
+                function hideEWM(){
+                    document.getElementById("EWM").style.display = 'none';
+                }
+            </script>
+        </ul>       
+
+    </body>
+</html>

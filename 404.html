@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wb="http://open.weibo.com/wb" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>404 - 页面不存在 - 唱响红歌，弘扬正气！</title>
+        <meta name="keywords" content="Not Found" />
+        <meta name="description" content="404-您访问的页面不存在" />
+        <style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				width: 100%;
+				background-color: #FFF;
+				font-size: 16px;
+				font-family: "Microsoft YaHei";
+				line-height: 24px;
+			}
+			li {
+				list-style: square outside none;
+				font-size: 14px;
+			}
+			.main {
+				width: 1000px;
+				height: 600px;
+				margin: 0 auto;
+				background: url("/images/404-NotFound.jpg") no-repeat scroll 0 0 #FFF;
+			}
+
+			.message {
+				padding: 275px 0 0 320px;
+				line-height: 30px;
+			}
+			.message ul {
+				padding-left: 20px;
+			}
+			.message a {
+				color: #B30000;
+			}
+
+		</style>
+    </head>
+    <body>
+		<div class="main">
+			<div class="message">
+				<strong>您可以选择如下操作：</strong>
+				
+				<script type="text/javascript">
+					function CloseWebPage() {
+						if (navigator.userAgent.indexOf("MSIE") > 0) {
+							if (navigator.userAgent.indexOf("MSIE 6.0") > 0) {
+								window.opener = null; window.close();
+							}
+							else {
+								window.open('', '_top'); window.top.close();
+							}
+						}
+						else if (navigator.userAgent.indexOf("Firefox") > 0) {
+							alert("对不起，当前浏览器设置不支持自动关闭功能，麻烦您手动关闭即可！");
+						}
+						else {
+							window.opener = null; 
+							window.open('', '_self', '');
+							window.close();
+						}
+					}
+				</script>
+				
+				<ul>
+					<li><span><a href="javascript :history.back(-1)">返回上一页</a></span></li>
+					<li><span><a href="http://www.szhgh.com" title="红歌会网首页">返回首页</a></span></li>
+					<li><span><a href="" onclick="CloseWebPage()">关闭当前页面</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

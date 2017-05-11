@@ -1,0 +1,797 @@
+@charset "utf-8";
+
+/*--------------- reset ----------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: #FFF; 
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    color:#ae3724;
+}
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+img {
+    border: none;
+}
+.newstext p{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.newstext pre{
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;   
+}
+li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 32px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear_left{
+    clear: left;
+}
+.clear_right {
+    clear: right;
+}
+
+
+.clearfix:after {clear: both;content: " ";display: block; font-size: 0; height: 0;visibility: hidden;}
+.clearfix {display: inline-table;}
+/* Hides from IE-mac */
+ * html .clearfix {height: 1%;} .clearfix {display: block;} 
+/* End hide from IE-mac */ 
+/* Hides from IE7 */
+ *+html .clearfix{height: 1%;} .clearfix {display: block;} 
+/* End hide from IE7 */
+
+.clear_float {clear: both;}
+
+
+
+
+/*--------------- reset end ---------------*/
+
+
+/*--------------- common ---------------*/
+.wrap {
+    width: 100%;
+}
+.width {
+    width: 1000px;
+    margin: 0 auto;
+}
+.section_header strong {
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 14px;
+}
+.section_header a {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #FFF;
+}
+
+/***** header *****/
+.header {
+    width: 988px;
+    padding: 0 6px;
+}
+
+/**** account ****/
+
+.account a {
+    padding: 5px 9px;
+    color: #FFF;
+    font-size: 12px;
+}
+.account .eilogintitle {
+    color: #FFF;
+    font-size: 12px;
+}
+.account .loginbutton,.account .registerbutton {
+    font-weight: bold;
+}
+.account .loginbutton {
+    background-color: #FFF;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 -2px 0 #ccc inset;
+    -moz-box-shadow: 0 -2px 0 #ccc inset;
+    -webkit-box-shadow: 0 -2px 0 #ccc inset;
+    color: #8a1717;
+    cursor: pointer;
+}
+.account .loginbutton:hover {
+    background-color: #FFF;    
+    box-shadow: 0 -2px 0 #ccc inset;
+    -moz-box-shadow: 0 -2px 0 #ccc inset;
+    -webkit-box-shadow: 0 -2px 0 #ccc inset;
+}
+.account .registerbutton {
+    cursor: pointer;
+}
+.account Text {
+    width: 75px;
+}
+
+/**** date ****/
+.date {
+    color: #FFF;
+    font-size: 12px;
+    background: url("../images/bg_date.jpg") no-repeat scroll 0 11px transparent;
+    padding-left: 6px;
+    margin-left: 10px;
+}
+.date strong {
+    font-family: "Microsoft YaHei";
+    font-size: 13px;
+    padding-right: 18px;
+}
+
+
+/***** wrap *****/
+
+
+.wrap-1 {
+    height: 57px;
+    line-height: 57px;
+    background-color: #8a1717;
+    padding: 11px 0 10px;
+}
+.wrap-2 {
+    margin-top: 13px;
+}
+
+/**** sidebox ****/
+.sidebox {
+    width: 250px;
+}
+.sidebox .section {
+    margin-bottom: 10px;
+}
+
+/**** sectionA ****/
+.sectionA .section_header strong {
+    background-color: #99b667;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    box-shadow: 0 -3px 0 #89aa56 inset;
+    -moz-box-shadow: 0 -3px 0 #89aa56 inset;
+    -webkit-box-shadow: 0 -3px 0 #89aa56 inset;
+    margin-left: 6px;
+}
+.sectionA .section_content {
+    padding: 8px 30px;
+    border: 1px solid #dbcfc0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.sectionA li {
+    width: 94px;
+    float: left;
+}
+
+/**** sectionB ****/
+.sectionB .section_header {
+    height: 32px;
+    line-height: 32px;
+    background-color: #e3e3e3;
+    box-shadow: 0 -2px 0 #cecece inset;
+    -moz-box-shadow: 0 -2px 0 #cecece inset;
+    -webkit-box-shadow: 0 -2px 0 #cecece inset;
+    padding: 0 12px;
+}
+.sectionB .section_header a {
+    color: #3c3c3c;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+.sectionB .section_header strong {
+    font-size: 14px;
+    float: left;
+    color: #3c3c3c;
+    font-family: "Microsoft YaHei";  
+    padding: 0;
+}
+
+.sectionB .section_content {
+    padding: 6px;
+    border: 1px solid #dbcfc0;
+    border-top: none;
+}
+.sectionB .section_content a {
+    font-size: 12px;
+}
+
+
+.sectionB .firsttitle li {
+    padding-bottom: 19px;
+    border-bottom: 1px dotted #d3d3d3;
+}
+.sectionB h3 {
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+}
+
+.sectionB .pic,.sectionB .pic img {
+    display: inline-block;
+    height: 72px;
+    width: 96px;
+}
+
+.sectionB .text,.sectionB .text p {
+    width: 130px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666;
+}
+.sectionB .text a {
+    color: #d26565;
+}
+
+.sectionB .list {
+    padding: 10px 0;
+}
+.sectionB .list li {
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    background: url("../images/bg_liststyle.jpg") no-repeat scroll 7px 12px transparent;
+    text-indent: 16px;
+}
+
+
+/**** mainbox ****/
+.mainbox {
+    width: 740px;
+}
+.mainbox li {
+    float: left;
+}
+.main_header strong {
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 14px;
+    background-color: #CD6476;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    box-shadow: 0 -3px 0 #C85A6A inset;
+    -moz-box-shadow: 0 -3px 0 #C85A6A inset;
+    -webkit-box-shadow: 0 -3px 0 #C85A6A inset;
+    margin-left: 6px;
+}
+
+.main_header strong a {
+    color: #FFFFFF;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+.main_header strong.recommends {
+    background-color: inherit;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.main_header strong.recommends a {
+    color: #000;
+}
+/**** container ****/
+.mainbox .container {
+    padding: 16px;
+    border: 1px solid #dbcfc0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+
+/**** tagbox ****/
+
+.tagbox,.tagbox a {
+    font-size: 12px;
+    font-family: "Microsoft SimSun";
+}
+.tagbox {
+    height: 26px;
+    line-height: 26px;
+    padding: 12px 6px 15px 35px;
+}
+.tagbox strong {
+    padding-right: 15px;
+}
+.tagbox a {
+    padding: 3px 6px;
+    background-color: #fff2e2;
+    color: #64441d;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+
+
+.list1 {
+    padding: 0 18px 7px;
+}
+.list1 {
+    border-bottom: 1px dotted #CCC;
+}
+.list1 li {
+    width: 111px;
+    text-indent: 0;
+}
+
+.list2 {
+    padding: 7px 18px 0;
+}
+.list2 li {
+    width: 111px;
+    
+}
+
+/**** sectionD ****/
+.sectionD {
+    margin-bottom: 5px;
+}
+.sectionD .section_header {
+    width: 56px;
+    margin-top: 8px;
+}
+.sectionD .section_header strong {
+    padding: 0 12px;
+    height: 42px;
+    line-height: 42px;
+}
+.colorbg1 {
+    background-color: #d26565;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    box-shadow: -6px 0 3px 4px #cd5959 inset;
+    -moz-box-shadow: -6px 0 3px 4px #cd5959 inset;
+    -webkit-box-shadow: -6px 0 3px 4px #cd5959 inset;
+}
+.colorbg2 {
+    background-color: #6e9ecd;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    box-shadow: -6px 0 3px 4px #6596c9 inset;
+    -moz-box-shadow: -6px 0 3px 4px #6596c9 inset;
+    -webkit-box-shadow: -6px 0 3px 4px #6596c9 inset;
+}
+.colorbg3 {
+    background-color: #a476b9;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    box-shadow: -6px 0 3px 4px #9c6cb3 inset;
+    -moz-box-shadow: -6px 0 3px 4px #9c6cb3 inset;
+    -webkit-box-shadow: -6px 0 3px 4px #9c6cb3 inset;
+}
+.colorbg4 {
+    background-color: #cd6476;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    box-shadow: -6px 0 3px 4px #c85a6a inset;
+    -moz-box-shadow: -6px 0 3px 4px #c85a6a inset;
+    -webkit-box-shadow: -6px 0 3px 4px #c85a6a inset;
+}
+.colorbg5 {
+    background-color: #57a3c2;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    box-shadow: -6px 0 3px 4px #509bbc inset;
+    -moz-box-shadow: -6px 0 3px 4px #509bbc inset;
+    -webkit-box-shadow: -6px 0 3px 4px #509bbc inset;
+}
+.colorbg6 {
+    background-color: #c0aa3e;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    box-shadow: -6px 0 3px 4px #baa238 inset;
+    -moz-box-shadow: -6px 0 3px 4px #baa238 inset;
+    -webkit-box-shadow: -6px 0 3px 4px #baa238 inset;
+}
+.colorbg7 {
+    background-color: #c48446;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    box-shadow: -6px 0 3px 4px #bf7940 inset;
+    -moz-box-shadow: -6px 0 3px 4px #bf7940 inset;
+    -webkit-box-shadow: -6px 0 3px 4px #bf7940 inset;
+}
+
+.sectionD .section_content {
+    width: 638px;
+    border: 1px solid #dbcfc0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 12px 22px;
+}
+.sectionD li {
+    width: 106px;
+}
+
+
+
+
+
+
+
+
+
+
+/***** footer *****/
+
+.footer {
+    clear: both;
+    width: 100%;
+    margin: 15px auto 0;
+}
+
+/**** copyright ****/
+.footer .copyright {
+    width: 100%;
+    line-height: 22px;
+    font-size: 12px;
+    padding: 10px 0;  
+    margin: 0 auto;
+    color: #cccccc;
+    background-color: #404040;
+}
+.footer .copyright ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer .copyright li {
+    float: left;
+    font-size: 12px;
+}
+.footer .copyright li a {
+    font-size: 12px;
+    color: #cccccc;
+}
+.footer .focusbutton {
+    padding: 6px 14px 6px 118px;
+}
+.footer .focusbutton a {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-color: #a0a0a0;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    box-shadow: 0 -2px 0 #707070 inset;
+    -moz-box-shadow: 0 -2px 0 #707070 inset;
+    -webkit-box-shadow: 0 -2px 0 #707070 inset;
+    margin: 0 9px;
+    position:relative;
+    z-index: 2;
+    behavior: url(http://www.szhgh.com/skin/default/css/ie-css3.htc); 
+}
+.footer .focusbutton a:hover {
+    background-color: #cc412c;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;    
+}
+.footer .focusbutton .rss {
+    background-image: url("../images/bg_rss.png");
+}
+.footer .focusbutton .sinaweibo {
+    background-image: url("../images/bg_sinaweibo.png");
+}
+.footer .focusbutton .qqweibo {
+    background-image: url("../images/bg_qqweibo.png");
+}
+.footer .focusbutton .qqmsg {
+    background-image: url("../images/bg_qqmsg.png");
+}
+.footer .focusbutton .email {
+    background-image: url("../images/bg_email.png");
+}
+/*** contact ***/
+.footer .contact {
+    color: #CA0002;
+
+}
+
+
+
+
+/*--------------- login modal -----------------*/
+#lean_overlay {
+    background: none repeat scroll 0 0 #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.loginmodal {
+    width: 545px;
+    background: #FFF;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.loginmodal .modaletools {
+    text-align: right;
+}
+.loginmodal .modaletools a {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    width: 26px;
+    text-align: center;
+    text-indent: 1px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    box-shadow: 2px 3px 7px #000;
+    -moz-box-shadow: 2px 3px 7px #000;
+    -webkit-box-shadow: 2px 3px 7px #000;
+    background-color: #FFF;
+    margin: -8px -8px 0 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+.loginmodal form {
+    padding: 0 40px 30px;
+}
+.loginmodal form strong {
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    color: #797373;
+}
+
+.loginmodal .login {
+    width: 228px;
+}
+
+.loginmodal form .username {
+    background: url("../images/bg_username.png") no-repeat scroll 0 0 #c4c4c4;
+}
+.loginmodal form .password {
+    background: url("../images/bg_password.png") no-repeat scroll 0 0 #c4c4c4;
+}
+.loginmodal form .txtfield {
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #cccccc;
+    color: #c7c7c7;
+    margin: 14px 0 0 0;
+}
+
+.loginmodal form .oninput {
+    background-color: #ffca3c;
+    border: 1px solid #ffca3c;
+}
+
+.loginmodal form .txtfield input {
+    height: 24px;
+    line-height: 24px;
+    width: 184px;
+    font-size: 14px;
+    border: none;
+    padding: 5px 0 5px 3px;
+    margin-left: 39px;
+    background-color: #FFF;
+    color: #c7c7c7;    
+}
+
+.loginmodal form .forgetmsg {
+    padding: 13px 0;
+}
+.loginmodal form .forgetmsg a {
+    font-size: 12px;
+    color: #8a5b22;    
+}
+.loginmodal form .inputSub {
+    height: 38px;
+    line-height: 38px;
+    width: 100%;
+    background-color: #c93b30;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 -4px 0 #a91813 inset;
+    -moz-box-shadow: 0 -4px 0 #a91813 inset;
+    -webkit-box-shadow: 0 -4px 0 #a91813 inset;
+    border: none;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+.loginmodal form .reg {
+    width: 160px;
+    padding-top: 36px;
+    color: #666;
+}
+.loginmodal form .regbutton {
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    background-color: #eeb829;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 -3px 0 #e48d10 inset;
+    -moz-box-shadow: 0 -3px 0 #e48d10 inset;
+    -webkit-box-shadow: 0 -3px 0 #e48d10 inset;
+    border: none;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*--------------- login modal -----------------*/
+
+
+
+/** 第三方社交样式 **/
+.eilogintitle
+{
+    /*display:inline-block;*/
+    padding-top:10px;
+}
+.header .account .toploginex span,.header .hea_1 .account .toploginex span,.header .hea_1 .account .toploginex
+{
+    padding-top:0;
+    padding-bottom: 0;    
+}
+.poploginex .eilogintitle
+{
+   padding-top:0; 
+}
+.toploginex .eilogintitle,.header .toolbar .eilogintitle
+{
+   /* display: none;*/
+}
+.disloginlist > a,.distrlist > a,.header .account .distrlist > a
+{
+    display:inline-block;
+    width: 25px;
+    height:25px;
+    margin-left:5px;
+    position:relative;
+    padding: 0 0;
+}
+.distrlist > a > em {
+text-indent: -9999px;
+display: block;
+width: 12px;
+height: 12px;
+position: absolute;
+right: 0px;
+bottom: 0px;
+_right: 0px;
+_bottom: -1px;
+}
+.distrlist  > A > em.isselect
+{
+    background: url('../images/ico_selected.png') no-repeat 0 0;
+}
+
+/** 新浪登录图标 **/
+.disloginlist > A.login_sina
+{
+     background: url("../images/sina_tag_s.png") no-repeat 0 0;
+}
+
+
+/** 新浪发布图标 **/
+.distrlist > A.tag_sina
+{
+     background-image: url("../images/sina_tag_s.png");
+     background-repeat: no-repeat;
+}
+/** QQ空间分享图标 **/
+.distrlist > A.tag_qz
+{
+     background-image: url("../images/qzlogo.png");
+     background-repeat: no-repeat;
+}
+
+.eiloginfix,.eidistrfix
+{
+    clear:both;
+    width:0;
+    height:0;
+}
+#plpost #statebox .eilogintitle
+{
+    float:none;
+}
+
+/*  QQ登录图标 */
+.disloginlist > A.login_qq
+{
+     background: url("../images/QQLOGO.png") no-repeat 0 0;
+}
+.distrlist > A.tag_qq
+{
+     background-image: url("../images/QQLOGO.png");
+     background-repeat: no-repeat;
+}
+
+.distrlist > A.disable
+{
+    background-position: 0 0;
+}
+.distrlist > A.isselect
+{
+    background-position: 0 -25px;
+}
+.distrlist > A.invalid
+{
+    background-position: 0 -50px;
+}
+.distrlist > A:hover
+{
+   background-position: 0 0;
+}
+.pl_list .inputarea .subtool A.pl2imageField
+{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    color: #FFF;
+    background-color: #ba4242;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 -3px 0 #911a1a inset;
+    -moz-box-shadow: 0 -3px 0 #911a1a inset;
+    -webkit-box-shadow: 0 -3px 0 #911a1a inset;
+    padding: 4px 15px 5px;
+    cursor: pointer;
+}
+.loginmodal .poploginex {
+    padding: 10px 0;
+}

@@ -1,0 +1,1290 @@
+@charset "utf-8";
+
+
+/***** reset *****/
+
+
+*{margin:0px; padding:0px;}
+
+body {font-size: 14px;font-family: "宋体,Arial"; line-height:26px; text-align:left; color: #555; background:#fff;}
+
+a {outline-style:none; color:#555; text-decoration:none;}
+a:link{	color: #555;}
+a:hover {color: #517517; }
+
+img {border:0px;}
+li {list-style-type: none;}
+
+.left,.pleft {float: left;}
+.right,.pright {float: right;}
+.clear{clear:both;}
+.clearfix:after {clear: both;content: " ";display: block; font-size: 0; height: 0;visibility: hidden;}
+.clearfix {display: inline-table;}
+
+/* Hides from IE-mac */
+ * html .clearfix {height: 1%;} .clearfix {display: block;} 
+/* End hide from IE-mac */ 
+/* Hides from IE7 */
+ *+html .clearfix{height: 1%;} .clearfix {display: block;} 
+/* End hide from IE7 */
+
+/***** common *****/
+.wrap_content {
+    margin-top: 32px;
+}
+.margin_t0 {
+    margin-top: 0px;
+}
+.margin_b0 {
+    margin-bottom: 0px;
+}
+
+.quotationbg .bg_quotation_top {
+    height: 17px;
+    background: url("../images/bg_quotation_top.jpg") no-repeat scroll 0 0 transparent;
+}
+.quotationbg .bg_quotation_bottom {
+    height: 17px;
+    background: url("../images/bg_quotation_bottom.jpg") no-repeat scroll 528px 0 transparent;
+}
+
+/**** title-absolute1 ****/
+
+.title-absolute1 {
+    display: inline-block;
+    position: relative;
+}
+.title-absolute1 .title,.title-absolute1 .opacitybg {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #FFF;
+}
+.title-absolute1 .title {
+    z-index: 1;
+}
+.title-absolute1 .opacitybg {
+    width: 100%;
+    background-color: #000;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* ie8  */
+    filter:alpha(opacity=60);    /* ie5-7  */
+    opacity: 0.6;    /* css standard, currently it works in most modern browsers  */
+    z-index: 0
+}
+
+
+
+.header {width:100%; border-bottom:1px #fff solid; background:#fff; margin:0 auto; overflow:hidden;border-bottom: 1px solid #dbdbdb;}
+.hea_1{width:1000px; height:45px;line-height: 45px; margin:0 auto; padding:5px 0 0;}
+.hea_1 .hea_logo {padding-right: 20px;}
+.hea_1 li{float:left; font-size:14px;}
+.hea_1 > span{float:left; padding:25px 0 0; display:block; font-size:14px;}
+.hea_1 a{color:#4a4a4a;}
+
+.hea_2{height: 200px;width:100%;  margin:0 auto; background: url("../images/mao121_banner.jpg") no-repeat scroll center center transparent;}
+.hea_3{width:1000px;  margin:0 auto; padding-bottom:15px; overflow:hidden; background:#fff;}
+.hea_3 ul{background:#000; display:block; height:28px;}
+.hea_3 li{height:28px; font-size:14px; display:block; float:left; padding:0 15px; line-height:28px; border-right:1px #fff solid;}
+.hea_3 li a{color:#fff;}
+
+/*** account ***/
+.account {
+    padding-right: 16px;
+}
+.account a,.msg .loginbutton {
+    font-weight: bold;
+    padding: 5px 9px;
+}
+
+.account .loginbutton,.msg .loginbutton {
+    background-color: #924242;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 -2px 0 #6c2b2b inset;
+    -moz-box-shadow: 0 -2px 0 #6c2b2b inset;
+    -webkit-box-shadow: 0 -2px 0 #6c2b2b inset;
+    color: #FFF;
+    cursor: pointer;
+}
+.account .loginbutton:hover,.msg .loginbutton:hover {
+    background-color: #851F1F;    
+    box-shadow: 0 -2px 0 #5A1414 inset;
+    -moz-box-shadow: 0 -2px 0 #5A1414 inset;
+    -webkit-box-shadow: 0 -2px 0 #5A1414 inset;
+}
+.account .registerbutton {
+    cursor: pointer;
+}
+.account Text {
+    width: 75px;
+}
+
+/***** wrap *****/
+
+.wrap {
+    margin: 0 auto 30px;
+}
+.wrap_header {
+    height: 59px;
+    background: url("../images/bg_wrapheader_1225.jpg") no-repeat scroll 0 0 transparent;
+    padding-left: 57px;
+}
+.wrap_header .txt {
+    float: left;
+    margin: 7px 0 16px;
+    text-indent: 0;
+    background: url("../images/bg_wraptext.jpg") repeat-x scroll 0 0 transparent;
+    padding-right: 13px;
+}
+.wrap_header .txt,.wrap_header .txt a {
+    height: 36px;
+    line-height: 36px;
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color: #FFF;
+}
+.wrap_header .linebg {
+    float: left;
+    height: 44px;
+    width: 15px;
+    background: url("../images/bg_wraptextbox.jpg") no-repeat scroll 0 0 transparent;   
+    margin-left: 3px;
+}
+
+.width {
+    width: 1000px;
+}
+
+
+/**** section ****/
+
+.section {
+    margin-top: 30px;
+}
+.section_header {
+    height: 36px;
+    line-height: 36px;
+    background: url("../images/bg_sectionheader_1225.jpg") no-repeat scroll 0 2px transparent;
+    text-indent: 100px;
+    padding-bottom: 3px;
+}
+.section_header,.section_header a {
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color: #1f3b7c;
+}
+
+
+/**** mainbox ****/
+.mainbox {
+    width: 550px;
+}
+.mainbox .section_header {
+    border-bottom: 1px solid #a0a0a0;
+}
+.mainbox .txt span {
+    padding: 0 5px;
+}
+
+/** sectionA **/
+.sectionA .section_content {
+    padding-left: 8px;
+}
+.sectionA .txt {
+    padding: 10px 0;
+}
+.sectionA h2 {
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.sectionA h2 a {
+    font: 20px "Microsoft YaHei";
+    color: #bf0000;
+}
+.sectionA p {
+    
+}
+/** sectionB **/
+.sectionB .section_content {
+    padding-top: 13px;
+}
+.sectionB .txt {
+    padding: 0 26px;
+}
+
+/** sectionC **/
+.sectionC .m-list-1 {
+    padding: 14px 0;
+}
+.sectionC .m-list-1 li {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #555555;
+    background: url("../images/bg_liststyle.jpg") no-repeat scroll 0px 14px transparent;
+    text-indent: 10px;
+}
+
+/**** sidebox ****/
+.sidebox {
+    width: 380px;
+}
+.sidebox .section_header {
+    margin-bottom: 5px;
+}
+
+.video .zoompic {
+    display: block;
+    position: relative;
+}
+.video .zoompic img {
+    height: 144px;
+    width: 192px;
+}
+.video .zoompic .icovideo {
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    background: url("../images/bg_icovideo.png") no-repeat scroll 0 0 transparent;
+}
+.video .titleintro {
+    height: 144px;
+    width: 169px;
+    background-color: #364c65;
+    color: #FFF;
+    padding: 0 9px;
+    
+}
+.video .titleintro h4 {
+    height: 46px;
+    line-height: 46px;
+    overflow: hidden;
+}
+.video .titleintro h4 a {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #FFF;
+}
+.video .intro {
+    font-size: 12px;
+    font-family: "SimSun";
+    line-height: 21px;
+}
+.video .intro a {
+    color: #d36262;
+}
+
+.video .list {
+    padding-top: 25px;
+}
+.video .list li {
+    height: 26px;
+    overflow: hidden;
+    text-indent: 30px;
+    background: url("../images/bg_videoliststyle.jpg") no-repeat scroll 0 9px transparent;
+}
+
+
+.vote .section_content {
+    height: 394px;
+    overflow: hidden;
+}
+#news_rolling{ height:350px; overflow:hidden;}
+.vote .list {
+    height: 350px;
+    overflow: hidden;
+    background-color: #f2f6fa;    
+}
+
+.vote .list li {
+    padding: 0 20px;
+    border-bottom: 1px dashed #bababa;
+}
+.vote .list form {
+    padding: 20px 0;
+}
+.vote .list input {
+    cursor: pointer;
+}
+.vote .list .title {
+    padding-bottom: 7px;
+}
+.vote .list .button {
+    padding-top: 7px;
+}
+.vote .list .subbutton {
+    background-color: #4a627d;
+    border: none;
+    color: #FFF;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 3px 12px;
+    margin-right: 15px;
+}
+.vote .list .lookbutton {
+    border: none;
+    background: none;
+}
+
+.vote .prebutton,.vote .nextbutton {
+    height: 20px;
+    background-color: #eaf1f9;
+    border: 1px solid #c8d7e8;
+}
+.vote .prebutton {
+    background: url("../images/bg_prebutton.png") no-repeat scroll 176px 3px #c8d7e8;
+}
+.vote .nextbutton {
+    background: url("../images/bg_nextbutton.png") no-repeat scroll 176px 3px #c8d7e8;
+}
+
+
+
+/***** wrap-1 *****/
+
+
+/**** textpic-box1 ****/
+.textpic-box1 {
+    width: 320px;
+}
+
+
+.wrap-1 .title-absolute1 img {
+    height: 240px;
+    width: 320px;
+}
+.wrap-1 .title-absolute1 .title {
+    padding: 0 10px;
+}
+.textpic-box1 .intro {
+    padding-top: 14px;
+}
+
+
+/**** list1 ****/
+.list1 {
+    width: 410px;
+    margin-left: 33px;
+}
+
+.list1 .textpic li {
+    padding-bottom: 21px;
+}
+.list1 h3,.list1 h3 a {
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    font-weight: normal;
+    color: #bf0000;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    padding-bottom: 7px;
+}
+.list1 .pic,.list1 .pic img {
+    display: inline-block;
+    height: 86px;
+    width: 114px;
+}
+.list1 .intro {
+    width: 287px;
+}
+.list1 .intro .readmore {
+    color: #bf0000;
+}
+
+.list1 .title li {
+    background: url("../images/bg_liststyle.jpg") no-repeat scroll 1px 12px transparent;
+    text-indent: 11px;
+    height: 26px;
+    overflow: hidden;
+}
+
+
+
+/**** list2 ****/
+.list2 {
+    width: 200px;
+}
+.list2 .title {
+    display: block;
+    font-weight: normal;
+}
+
+.list2 .titlepic a,.list2 .titlepic a img {
+    display: inline-block;
+}
+.list2 .titlepic img {
+    height: 150px;
+    width: 200px;
+}
+
+.list2 .pictitle-video li {
+    padding-top: 16px;
+}
+.list2 .pictitle-video .pic,.list2 .pictitle-video .pic img {
+    display: inline-block;
+    height: 61px;
+    width: 81px;
+}
+.list2 .pictitle-video .title {
+    font-size: 12px;
+    line-height: 20px;
+    width: 107px;
+    text-indent: 24px;
+    background: url("../images/bg_videoliststyle.jpg") no-repeat scroll 1px 7px transparent;    
+}
+
+
+
+/***** wrap-2 *****/
+
+.wrap-2 .pic,.wrap-2 .pic img {
+    display: inline-block;
+    height: 108px;
+    width: 144px;
+}
+.wrap-2 .pic {
+    float: left;
+}
+.wrap-2 dl {
+    width: 475px;
+    padding-top: 32px;
+}
+.wrap-2 dd {
+    padding-left: 156px;
+}
+.wrap-2 h4 {
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.wrap-2 .readmore {
+    color: #bf0000;
+}
+
+
+
+/***** wrap-3 *****/
+
+/***** textpic-box2 *****/
+.textpic-box2 {
+    width: 241px;
+}
+.textpic-box2 .pic,.textpic-box2 .pic img {
+    display: inline-block;
+    height: 180px;
+    width: 241px;
+}
+
+.textpic-box2 .author {
+    height: 31px;
+    margin-bottom: 15px;
+}
+.textpic-box2 .author span {
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    line-height: 31px;
+    background-color: #942829;
+    padding: 0 10px;
+    color: #FFF;
+}
+
+.textpic-box2 .bg_quotation_bottom {
+    background-position: 219px 0;
+}
+
+.textpic-box2 .title,.textpic-box2 .title a {
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: normal;
+    color: #ae0000; 
+}
+.textpic-box2 .title {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    margin: 9px 0;
+}
+
+.textpic-box2 .intro {
+    padding-bottom: 5px;
+}
+.textpic-box2 .intro .readmore {
+    color: #bf0000;
+}
+
+
+/***** list4 *****/
+.list4 {
+    width: 756px;
+}
+.list4 dl {
+    width: 333px;
+    margin-left: 45px;
+    margin-bottom: 26px;
+}
+.list4 dt {
+    float: left;
+}
+.list4 .pictitle,.list4 .pictitle img {
+    display: inline-block;
+}
+.list4 .pictitle img {
+    height: 60px;
+    width: 60px;
+}
+.list4 .pictitle div {
+    height: 26px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    background-color: #364c65;
+}
+
+.list4 dd {
+    float: right;
+    width: 264px;
+    padding-left: 6px;
+    background: url("../images/bg_arrow.jpg") no-repeat scroll 0 30px transparent;
+}
+.list4 dd .box {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 -3px 0 #cedbeb inset;
+    -moz-box-shadow: 0 -3px 0 #cedbeb inset;
+    -webkit-box-shadow: 0 -3px 0 #cedbeb inset;
+    background-color: #e6edf5;
+    padding: 10px 15px;
+}
+
+.list4 dd h4 {
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.list4 dd h4 a {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+.list4 dd .intro {
+    font-size: 12px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.list4 dd .intro .readmore {
+    color: #bf0000;
+}
+
+
+
+/***** wrap-4 *****/
+
+.rowcollay strong,.rowcollay a {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFF;
+}
+
+.pictitle-absolute2,.pictitle-absolute2 img {
+    display: inline-block;
+}
+.pictitle-absolute2 {
+    position: relative;
+}
+.pictitle-absolute2 strong,.pictitle-absolute2 .opacitybg {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+.pictitle-absolute2 strong {
+    z-index: 2;
+    text-indent: 10px;
+}
+.pictitle-absolute2 .opacitybg {
+    padding-top: 10px;
+    z-index: 1;
+    background: url("../images/bg_opacitybg.png") repeat-x scroll 0 0 transparent;
+}
+.colorblank1 {
+    width: 96px;
+    padding: 24px 22px;
+    background-color: #364c65;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.c1 {
+    width: 410px;
+}
+.c1r1 {
+    height: 22px;
+    text-align: right;
+    margin-bottom: 7px;
+}
+.c1r1 .colorblock1 {
+    display: inline-block;
+    height: 22px;
+    width: 28px;
+    background-color: #364c65;
+}
+
+.c1r2 {
+    margin-bottom: 7px;
+}
+.c1r2 .pictitle-absolute2,.c1r2 .pictitle-absolute2 img {
+    height: 307px;
+    width: 410px;
+}
+
+
+.c1r3 {
+    position: relative;
+    z-index: 0;
+}
+.c1r3 .colorblank2 {
+    width: 96px;
+    padding: 24px 22px;
+    background-color: #942829;
+    position: absolute;
+    z-index: 1;
+    right: 213px;
+}
+.c1r3 .pic,.c1r3 .pic img {
+    height: 184px;
+    width: 247px;
+}
+
+
+.c2 {
+    width: 583px;
+}
+.c2r1c1 {
+    margin-bottom: 7px;
+}
+.c2r1c1 .pictitle-absolute2,.c2r1c1 .pictitle-absolute2 img {
+    height: 264px;
+    width: 351px;
+}
+.c2r1c2 {
+    height: 264px;
+    width: 225px;
+    position: relative;
+}
+.c2r1c2 .pic,.c2r1c2 .pic img {
+    display: block;
+    height: 170px;
+    width: 225px;
+    padding-top: 47px;
+}
+.c2r1c2 .colorblank1 {
+    top: 23px;
+}
+
+.c2r1c2 .right {
+    height: 264px;
+    width: 225px;
+    position: absolute;
+    bottom: -94px;
+}
+
+.c2r2c1 {
+    width: 202px;
+    position: relative;
+}
+.c2r2c1 .pic,.c2r2c1 .pic img {
+    display: block;
+    height: 150px;
+    width: 202px;
+}
+.c2r2c1 .colorblank1 {
+    top: 135px;
+}
+.c2r2c2 {
+    margin-left: 7px;
+}
+.c2r2c2 .pictitle-absolute2,.c2r2c2 .pictitle-absolute2 img {
+    height: 238px;
+    width: 316px;
+}
+.c2r2c3 .colorblock2 {
+    display: inline-block;
+    height: 51px;
+    width: 50px;
+    background-color: #942829;
+}
+
+/***** wrap-5 *****/
+
+.wrap-5 .zoompic,.wrap-5 .zoompic img {
+    display: block;
+    height: 240px;
+    width: 320px;
+}
+.wrap-5 .zoompic {
+    position: relative;
+    z-index: 0;
+}
+.wrap-5 .zoompic strong,.wrap-5 .zoompic .icovideo,.wrap-5 .zoompic .titlebg {
+    display: block;
+    height: 39px;
+    line-height: 39px;
+    overflow: hidden;
+    width: 100%;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+.wrap-5 .zoompic strong {
+    width: 100%;
+    text-indent: 10px;
+    z-index: 2;
+}
+.wrap-5 .zoompic .titlebg {
+    background-color: #000; 
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* ie8  */
+    filter:alpha(opacity=60);    /* ie5-7  */
+    opacity: 0.6;    /* css standard, currently it works in most modern browsers  */
+}
+.wrap-5 .zoompic .icovideo {
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    bottom: 60px;
+    left: 16px;
+    background: url("../images/bg_icovideo.png") no-repeat scroll 0 0 transparent;
+}
+
+.list3 {
+    width: 680px;
+}
+.list3 li {
+    float: left;
+    height: 113px;
+    width: 150px;
+    padding: 0 0 14px 20px;
+}
+.list3 a,.list3 img {
+    display: inline-block;
+    height: 113px;
+    width: 150px;
+}
+.list3 .title,.list3 .opacitybg {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    font-family: "SimSun";
+    font-size: 12px;
+}
+.list3 .title {
+    padding: 0 4px;
+}
+
+
+/***** wrap-7 *****/
+.wrap-7 .textpic li {
+    width: 310px;
+    float: left;
+    margin-bottom: 12px;
+    padding-right: 35px;
+}
+.wrap-7 .textpic li.s-nopadding {
+    padding: 0;
+}
+.wrap-7 .pic,.wrap-1 .pic img {
+    display: inline-block;
+    
+}
+.wrap-7 .pic img {
+    width: 310px;
+    height: 233px;
+}
+.wrap-7 .pic h3 {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    color: #bf0000;
+}
+
+
+
+
+.cont_pl{width:998px; margin:0 auto 15px; clear:both; border:1px #d6d6d6 solid; font-size:14px; line-height:26px; background:#fff;}
+.section_header_articlecontent {height:30px; line-height:30px; margin:0 0 10px 0; padding:0 15px; background:#f5f5f5; font-size:14px; border-bottom:1px #d6d6d6 solid;}
+
+.bor1{border:none;}
+.cl{clear:both;}
+.ov{overflow:hidden;}
+.le_2a{margin-right:0;}
+.pad{padding-top:15px;}
+.mar_b{margin:0 0 15px;}
+.fl{float:left; padding:10px; font-size:14px;}
+
+
+/*——底部开始*/
+.footer {width:1000px; height:30px; overflow:hidden; margin:0 auto 15px; background:#be001c; clear:both; text-align:center; font-size:14px; line-height:30px; color:#fff; font-size:12px;}
+.footer a{color:#fff;}
+.footer1 {width:1000px; height:30px; overflow:hidden; margin:0 auto 15px; font-size:12px; text-align:center;}
+.footer1 font{font-size:12px; margin:0 auto;}
+/*——底部结束*/
+
+.daoy{padding:10px; font-size:14px; line-height:26px;}
+.pad_t{padding-top:0;}
+.pad_le{ padding-left:35px;}
+
+
+
+
+/*--------------- login modal -----------------*/
+#lean_overlay {
+    background: none repeat scroll 0 0 #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.loginmodal {
+    width: 545px;
+    background: #FFF;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.loginmodal .modaletools {
+    text-align: right;
+}
+.loginmodal .modaletools a {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    width: 26px;
+    text-align: center;
+    text-indent: 1px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    box-shadow: 2px 3px 7px #000;
+    -moz-box-shadow: 2px 3px 7px #000;
+    -webkit-box-shadow: 2px 3px 7px #000;
+    background-color: #FFF;
+    margin: -8px -8px 0 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.loginmodal form {
+    padding: 0 40px 30px;
+}
+.loginmodal form strong {
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    color: #797373;
+}
+
+.loginmodal .login {
+    width: 228px;
+}
+
+.loginmodal form .username {
+    background: url("../images/bg_username.png") no-repeat scroll 0 0 #c4c4c4;
+}
+.loginmodal form .password {
+    background: url("../images/bg_password.png") no-repeat scroll 0 0 #c4c4c4;
+}
+.loginmodal form .txtfield {
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #cccccc;
+    color: #c7c7c7;
+    margin: 14px 0 0 0;
+}
+
+.loginmodal form .oninput {
+    background-color: #ffca3c;
+    border: 1px solid #ffca3c;
+}
+
+.loginmodal form .txtfield input {
+    height: 24px;
+    line-height: 24px;
+    width: 184px;
+    font-size: 14px;
+    border: none;
+    padding: 5px 0 5px 3px;
+    margin-left: 39px;
+    background-color: #FFF;
+    color: #c7c7c7;    
+}
+
+.loginmodal form .forgetmsg {
+    padding: 13px 0;
+}
+.loginmodal form .forgetmsg a {
+    font-size: 12px;
+    color: #8a5b22;    
+}
+.loginmodal form .inputSub {
+    height: 38px;
+    line-height: 38px;
+    width: 100%;
+    background-color: #c93b30;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 -4px 0 #a91813 inset;
+    -moz-box-shadow: 0 -4px 0 #a91813 inset;
+    -webkit-box-shadow: 0 -4px 0 #a91813 inset;
+    border: none;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+.loginmodal form .reg {
+    width: 160px;
+    padding-top: 36px;
+    color: #666;
+}
+.loginmodal form .regbutton {
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    background-color: #eeb829;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 -3px 0 #e48d10 inset;
+    -moz-box-shadow: 0 -3px 0 #e48d10 inset;
+    -webkit-box-shadow: 0 -3px 0 #e48d10 inset;
+    border: none;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*--------------- login modal -----------------*/
+
+
+/*** pl_list ***/
+.pl_list .left {
+    float: left;
+}
+.pl_list .right {
+    float: right;
+}
+
+.pl_list .section_content {
+    padding: 20px 12px;
+}
+.pl_list .avatar {
+    padding-right: 12px;
+}
+.pl_list .avatar img {
+    height: 64px;
+    width: 64px;
+}
+
+.pl_list .inputarea {
+    width: 892px;
+}
+.pl_list .inputarea .retext {
+    border: 1px solid #d4d4d4;
+    padding: 0 5px 5px;
+    box-shadow: 0 1px 0 0 #e9e8e8 inset;
+    -moz-box-shadow: 0 1px 0 0 #e9e8e8 inset;
+    -webkit-box-shadow: 0 1px 0 0 #e9e8e8 inset;    
+}
+.pl_list .inputarea .retext .state {
+    padding: 25px 0 20px;
+    text-align: center;
+}
+.pl_list .inputarea .subtool {
+    height: 30px;
+    line-height: 30px;
+    padding: 4px 0;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.pl_list .inputarea .subtool a {
+    color: #a5a5a5;   
+}
+.pl_list .inputarea .subtool .submitbutton {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    color: #FFF;
+    background-color: #ba4242;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 -3px 0 #911a1a inset;
+    -moz-box-shadow: 0 -3px 0 #911a1a inset;
+    -webkit-box-shadow: 0 -3px 0 #911a1a inset;
+    padding: 4px 15px 5px;
+    cursor: pointer;
+}
+.pl_list .inputarea .subtool .dissubmitbutton {
+    background-color: #C8C8C8;
+    box-shadow: 0 -3px 0 #B2B2B2 inset;
+    -moz-box-shadow: 0 -3px 0 #B2B2B2 inset;
+    -webkit-box-shadow: 0 -3px 0 #B2B2B2 inset;
+}
+.pl_list .inputarea textarea {
+    width: 100%;
+    border: none;
+    background-color: #FFF;
+    margin-top: 5px;
+}
+.pl_list .inputarea .subtool .facebutton {
+    display: inline-block;
+    padding-left: 24px;
+    cursor: pointer;
+    background: url("../images/bg_facebutton.png") no-repeat scroll 0 5px transparent;
+}
+.pl_list .inputarea .subtool .facebutton:hover {
+    background: url("../images/bg_facebuttonhover.png") no-repeat scroll 0 5px transparent;    
+}
+
+.pl_list .comment_list li {
+    padding: 14px 0 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.pl_list .comment_list .userpic img {
+    width: 64px;
+    height: 64px;
+}
+.pl_list .comment_list .comment {
+    width: 888px;
+}
+.pl_list .comment_list .property strong {
+    color: #a40000;
+}
+.pl_list .comment_list .property strong a {
+    color: #a40000;
+}
+.pl_list .comment_list .property em {
+    color: #8a5b22;
+    font-style: normal;
+    font-size: 12px;
+}
+.pl_list .comment_list .pltext {
+    padding: 10px 0;
+}
+.pl_list .comment_list .interaction {
+    text-align: right;
+    font-size: 12px;
+}
+.pl_list .comment_list .interaction a {
+    color: #666666;
+    font-size: 12px;
+}
+
+.pl_list .readallpl {
+    height: 24px;
+    line-height: 24px;
+    margin-top: -1px;
+    border-top: 1px solid #FFF;
+}
+.pl_list .readallpl a {
+    font-size: 12px;
+    color: #a00000;
+    display: block;
+    background-color: #ffdcdc;    
+}
+.pl_list .readallpl a:hover {
+    background-color: #f8baba;    
+}
+
+/*--------------- mF_tbhuabao -----------------*/
+
+/***** mF_tbhuabao *****/
+.myFocus {width: 334px;}
+.mF_tbhuabao {background:#EAEAEA;overflow:visible;position:relative;z-index: 0;}
+.mF_tbhuabao .loading{ position:absolute; width:100%; height:100%;top: 0;left: 0; background:#fff url("../images/focus_loading.gif") center no-repeat; z-index:9;}
+.mF_tbhuabao .pic,.mF_tbhuabao .pic ul{width:380px;height:285x; position:absolute;top:0;left:0;overflow:hidden;}
+.mF_tbhuabao img {width:380px;height:285x;}
+.article_mainlist .mF_tbhuabao .pic,.mF_tbhuabao .pic ul{width:235px;height:180pxx; }
+.mF_tbhuabao .pic li{position:relative;float:left;overflow:hidden;}
+.mF_tbhuabao .txt li{
+    position:absolute;z-index:2;height:40px;line-height:40px;overflow: hidden;display:none;text-align: center;
+}
+.mF_tbhuabao .scroll_bg {
+    position:absolute;
+    width: 100%;
+    height:40px;
+    line-height:40px;
+    background-color: #000;
+    top: 245px;
+    left: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* ie8  */
+    filter:alpha(opacity=60);    /* ie5-7  */
+    opacity: 0.6;    /* css standard, currently it works in most modern browsers  */
+}
+.index .mF_tbhuabao .scroll_bg {
+    top: 212px;
+}
+
+
+/*默认标题高度*/
+.mF_tbhuabao .txt li a{color: #FFF;position:relative;z-index:1;height: 40px;line-height: 40px;font-size:18px;font-family: "Microsoft YaHei";text-decoration:none;}/*标题样式*/
+.mF_tbhuabao .txt li p {color: #000000;position: absolute;top: 61px;width: 248px;}
+.mF_tbhuabao .txt li b{display:block;height:100%;width:100%;position:absolute;top:0;left:0;filter:alpha(opacity=30);opacity:0.3;}
+.mF_tbhuabao .dot{position:absolute;top:213px;left:0;height:32px;line-height:28px;width:100%;text-align:center;}
+.mF_tbhuabao .dot li{display:inline;margin:0 3px;}
+.mF_tbhuabao .dot li a{color:#999;font-size:26px;text-decoration:none;-webkit-transition:color 0.4s;-moz-transition:color 0.4s;-o-transition:color 0.4s;}
+.mF_tbhuabao .dot li.current a{color:#f60;}
+.mF_tbhuabao .prev,.mF_tbhuabao .next{font:700 53px/58px arial;width:37px;height:65px;overflow:hidden;position:absolute;z-index:4;left:0;cursor:pointer;}
+.mF_tbhuabao .next{left:auto;right:0;}
+.mF_tbhuabao .prev a,.mF_tbhuabao .next a{display:block;color:#F6F6F6;text-align:center;text-decoration:none;}
+.mF_tbhuabao .prev a:hover,.mF_tbhuabao .next a:hover{color:#f60;}
+
+/*--------------- mF_tbhuabao end ----------------*/
+
+/** 第三方社交样式 **/
+.eilogintitle
+{
+    /*display:inline-block;*/
+    padding-top:10px;
+}
+.header .account .toploginex span,.header .hea_1 .account .toploginex span,.header .hea_1 .account .toploginex
+{
+    padding-top:0;
+    padding-bottom: 0; 
+}
+.header .hea_1 .account .toploginex
+{
+    float:none;
+    line-height:normal;
+    display:inline-block;
+}
+.header .hea_1 .account .toploginex > span
+{
+    padding-top:10px;
+}
+.poploginex .eilogintitle
+{
+   padding-top:0; 
+}
+.toploginex .eilogintitle,.header .toolbar .eilogintitle
+{
+   /* display: none;*/
+}
+.disloginlist > a,.distrlist > a,.header .account .distrlist > a
+{
+    display:inline-block;
+    width: 25px;
+    height:25px;
+    margin-left:5px;
+    position:relative;
+    padding: 0 0;
+}
+.distrlist > a > em {
+text-indent: -999px;
+display: block;
+width: 12px;
+height: 12px;
+position: absolute;
+right: 0px;
+bottom: 0px;
+_right: 0px;
+_bottom: -1px;
+}
+.distrlist  > A > em.isselect
+{
+    background: url('../images/ico_selected.png') no-repeat 0 0;
+}
+
+/** 新浪登录图标 **/
+.disloginlist > A.login_sina
+{
+     background: url("../images/sina_tag_s.png") no-repeat 0 0;
+}
+
+
+/** 新浪发布图标 **/
+.distrlist > A.tag_sina
+{
+     background-image: url("../images/sina_tag_s.png");
+     background-repeat: no-repeat;
+}
+
+.eiloginfix,.eidistrfix
+{
+    clear:both;
+    width:0;
+    height:0;
+}
+#plpost #statebox .eilogintitle
+{
+    float:none;
+}
+
+/*  QQ登录图标 */
+.disloginlist > A.login_qq
+{
+     background: url("../images/QQLOGO.png") no-repeat 0 0;
+}
+.distrlist > A.tag_qq
+{
+     background-image: url("../images/QQLOGO.png");
+     background-repeat: no-repeat;
+}
+
+.distrlist > A.disable
+{
+    background-position: 0 0;
+}
+.distrlist > A.isselect
+{
+    background-position: 0 -25px;
+}
+.distrlist > A.invalid
+{
+    background-position: 0 -50px;
+}
+.distrlist > A:hover
+{
+   background-position: 0 0;
+}

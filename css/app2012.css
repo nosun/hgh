@@ -1,0 +1,401 @@
+/**	站点CSS样式表(app2012)	**/
+.homefdp {
+ width:100%;
+ overflow:hidden;
+	clear: both;
+}
+.homepagehhad
+{
+	overflow: hidden;
+	width: 850px;
+	height: 160px;
+	position: relative;
+   margin-bottom:5px;
+   float:left;
+}
+#adoutBox1, #adBoutBox1 {
+    position:relative;
+}
+#adContent1, #adBContent1 {
+position:relative;
+}
+.homefdp .homefdpinfo {/*幻灯片右侧的说明*/
+    height: 160px;
+    overflow: hidden;
+    width: auto;
+    background-color: #FFFFFF;
+    color: #666666;
+    padding-left:8px;
+    text-indent:24px;
+    display:none;
+}
+
+.homepagehhBad
+{
+	overflow: hidden;
+	width: 850px;
+	height: 160px;
+	position: relative;
+    float:left;
+   margin-bottom:10px;
+}
+
+.adpNum
+{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+.adpNum li
+{
+	list-style: none;
+	float: left;
+	width: 18px;
+	height: 16px;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	border: 1px solid #D00000;
+	background-color: #FFFFFF;
+	color: #D00000;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 4px;
+	padding-top: 2px;
+	overflow: hidden;
+}
+.adpNum li:hover, .adpNum li.active
+{
+	border: 1px solid #D00000;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	width: 22px;
+	height: 18px;
+	font-weight: bold;
+	font-size: 13px;
+}
+/*******************************************************/
+.redwin {
+  width:1090px;/*页面的宽度*/
+ margin:auto;
+min-width:960px;
+}
+.redwin .redwin2 {
+ width:100%;
+}
+    .redwin .bcol1 {
+     width:10px;
+    }
+    .redwin .bcol0 {
+        width:315px;
+      vertical-align:top;
+      background-color:#FFFFFF;
+    }
+    .redwin .bcol2 {
+      vertical-align:top;
+      background-color:#F1F1F1;
+    }
+        .redwin .bcol2b {
+      vertical-align:top;
+      background-color:#F1F1F1;
+      width:315px;
+    }
+        
+    .redwin .dcol0 {
+      vertical-align:top;
+      background-color:#FFFFFF;
+    }
+    .redwin .dcol1 {
+     width:10px;
+    }
+    .redwin .dcol0 {
+      vertical-align:top;
+      background-color:#FFFFFF;
+    }
+    .redwin .dcol2 {
+        width:315px;
+      vertical-align:top;
+      background-color:#F1F1F1;
+    }
+        .redwin .dcol2b {
+      vertical-align:top;
+      background-color:#F1F1F1;
+      width:315px;
+    }
+        
+        
+    .redwin .ztcol0 {
+        width:215px;
+      vertical-align:top;
+      background-color:#FFFFFF;
+    }
+    .redwin .ztcol2 {
+      vertical-align:top;
+      background-color:#F1F1F1;
+    } 
+    .redwin .hcol0 {
+        width:230px;
+      vertical-align:top;
+    }
+    .redwin .hcol2 {
+      vertical-align:top;
+    }
+        .redwin .hcol2 .rcol0 {
+         vertical-align:top;
+        }
+        
+        .redwin .hcol2 .rcol0 #div_changeTab{
+         
+        }
+    .redwin #tvcontent1 {
+     height:226px;
+     overflow:hidden;
+    }
+        
+        
+.redwin2 TR TD.morelink {
+     width:60px;
+     text-align:center;
+}   
+        .redwin .hcol2 .rcol1 {
+        width:10px;
+        }        
+        .redwin .hcol2 .rcol2 {
+          vertical-align:top;
+          width:315px;
+        }
+        .redwin .hcol2 .rcola {
+          vertical-align:top;
+          width:50%;
+        }        
+        .redwin .hcol2 .rcolb {
+          vertical-align:top;
+        
+        }        
+         .redwin .hcol2 .rcolc {
+        width:10px;
+        }
+.redwin TABLE {
+table-layout:fixed;
+}
+LI.headdotli {
+width:100%;
+position:relative;
+overflow:hidden;white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis; 
+}
+    LI.headdotli .box_r {
+     position:absolute;
+     right:3px;
+    }   
+LI.headdotli .dot {
+
+}     
+ LI.headdotli  > A {
+
+}
+.firstitle .headdotli h3 {
+    text-align: center;
+    margin: 14px 0;
+}
+.firstitle .headdotli h3 a.a3 {
+    font-size: 18px;
+}
+
+            .redwin .hcol2 .rcol2 .ztul {
+             width:98%;
+            
+            }   
+    .redwin TD.ktitle {
+    text-indent:15px;
+    text-align:left;
+    	color: #ca0002;
+	font-size: 14px;
+	font-weight: bold;
+
+    }
+    .redwin .viewbox {
+      background-color:#003466;
+    }
+    .redwin .rightrow0 {
+      background-color:#003466;
+    }    
+    .redwin .rightrow1 {
+      background-color:#003466;
+    }  
+    .redwin .rightrow2 {
+      background-color:#003466;
+    }
+    .redwin .viewbottom {
+    width:100%;
+    }
+    .redwin .rightop {
+        width: 380px;
+        text-align: right;
+        padding-right: 35px;
+    }
+.redwin UL.linkbox {
+    width:96%;
+    margin:auto;
+}
+#viewbottomtd {
+    height:15px;
+
+}
+ 
+#footlinks {
+    width: 100%;
+    margin: 0 auto 3px auto;
+    background-color: #003366;
+}
+#footlinks span{
+    color: #003366;
+}
+#footbottom {
+    width: 100%;
+}
+.overflowdot { 
+overflow: hidden;/*注意不要写在最后了*/ 
+white-space: nowrap; 
+-o-text-overflow: ellipsis; 
+text-overflow: ellipsis; 
+}
+#ahsjlink {
+text-align:center;
+background-color:Transparent;
+}
+#ahsjlink a img {
+    border:none;
+    width:200px;
+}
+/*幻灯片辅助生成*/
+#adcadbody .aditem {
+    padding: 4px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #66CCFF;
+    clear:both;
+}
+#adcadbody .aditem .dataitems {
+  width:88%;
+}
+#adcadbody LI {
+ list-style-type:none;
+ padding:0;
+ margin:0;
+}
+#adcadbody .aditem UL.dataitems > LI {
+ float:none;
+ clear:both;
+}
+    #adcadbody .aditem UL.dataitems > LI > DL > DD.l {
+        text-align:right;
+        color:#808080;
+        width:150px;
+        float:left;
+    }
+    #adcadbody .aditem UL.dataitems > LI > DL > DD.r {
+        float:left;
+    }
+        #adcadbody .aditem UL.dataitems > LI > DL > DD.r INPUT[type="text"] {
+         width:340px;
+        }   
+  #adcadbody .aditem UL.dataitems > LI > DL > DD.i {
+        float:right;
+    color:#4cff00;
+    width:260px;
+    }
+#adcadbody .aditem .subcmd {
+clear:both;
+height:30px;
+text-align:center;
+line-height:30px;
+vertical-align:middle;
+}
+    #adcadbody .aditem .subcmd INPUT {
+     margin-left:20px;
+     width:50px;
+     height:25px;
+    }
+#Diaphragm1 {
+clear:both;
+height:10px;
+
+}
+.hg_26 {
+height:26px;
+line-height:26px;
+vertical-align:middle;
+}
+#header h2 IMG {
+  height:65px;
+  width:auto;
+}
+a.widther img
+{
+border:0;
+height:28px;
+}
+A.moretoplink:link, A.moretoplink:visited {
+    color:#ca0002;
+}
+A.moretoplink:hover {
+     color:#003366;
+     font-size:13px;
+}
+.top-tab H3.onthis A.moretoplink:link{
+ color:#003366;
+}
+UL.global_tx_list4 > LI {
+     width:100%;
+     overflow:hidden;
+     white-space: nowrap;
+     position:relative;
+}
+    UL.global_tx_list4 > LI .box_r {
+     float:none;
+     position:absolute;
+     right:1px;
+     top:0px;
+    }
+    .state_value > table > tbody > tr > td > div {
+    background-position: 0px bottom;
+    width: 60px;
+    background-image: url('/attachments/2012/09/1_2012092623534417pCQ.gif');
+    background-repeat: no-repeat;
+}
+.state_value  > table > tbody > tr > td > div.max_value
+{
+    background-position: -60px bottom;
+}
+/*顶部的关注*/
+.font_fff {
+    position:relative;
+    text-align:right;
+}
+#follow-button-wb {
+    display:inline-block;
+    padding-right:5px;
+}
+/*底部联系方式广告*/
+#siteblink {
+ text-align:center;
+ background-color:#fae4e4;
+ padding:2px;
+}
+#sinawboo {
+display:inline-block;
+position:relative;
+}
+#sarch_list > LI
+{
+ width:100%;
+overflow: hidden;
+float:left;
+position: relative;
+}
+#sarch_list > LI .box_r
+{
+display:block;
+position:absolute;
+top:2px;
+right:2px;
+}
