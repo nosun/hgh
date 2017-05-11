@@ -125,10 +125,10 @@ $data['id']=(int)$_GET['id']; ?>
 <!--				<!-- JiaThis Button END -->
 <!--			</div>-->
 		</div>
-		<div class="related_article" style="border-bottom: 3px solid rgb(230,230,230)">
+		<!--<div class="related_article" style="border-bottom: 3px solid rgb(230,230,230)">
 			<h2 style="color: rgb(102,102,102);background-color: white;padding-left: 0px;;border-bottom:0px;font-size: 16px">相关文章</h2>
-			<?=DoNews($data,1)?>
-		</div>
+			<?php  //DoNews($data,1);?>
+		</div>-->
 		<div class="recommend_new" style="margin-bottom: 5px">
 			<h2 style="color: rgb(102,102,102);padding-left: 0px;border-bottom:0px;font-size: 16px;">最新推荐</h2>
 			<div style="padding-right: 0%"><?=DoNews($data,2)?></div>

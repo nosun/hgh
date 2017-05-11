@@ -23,7 +23,8 @@ $bid = (int)$_GET['bid'];
 if($bid){
     $gbr = $empire->fetch1("select bid,bname,groupid from {$dbtbpre}enewsgbookclass where bid='$bid'");
 } else {
-    $rname = $_GET['rname'];
+    $rname = mysql_real_escape_string($_GET['rname']);
+
     $gbr = $empire->fetch1("select bid,bname,rname,groupid from {$dbtbpre}enewsgbookclass where rname='$rname'");
     $bid = (int) $gbr['bid'];
 }
